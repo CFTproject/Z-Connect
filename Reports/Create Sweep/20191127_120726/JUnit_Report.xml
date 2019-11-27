@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Sweep" time="66" tests="13" failures="0" errors="0">
+   <testsuite name="Create Sweep" tests="13" failures="0" errors="0" time="66" timestamp="2019-11-27 12:07:35" hostname="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN" id="Test Suites/Create Sweep">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Create Sweep\\20191127_120726"/>
+         <property name="logFiles" value="C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Create Sweep\\20191127_120726\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN"/>
+         <property name="hostAddress" value="20.195.11.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type XF" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type XF" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:07:36 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type XF: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type XF
+
+2019-11-27 12:07:38 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:07:38 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:07:41 - [TEST_STEP][PASSED] - for ([i = 1, i < 2, (i++)]): Verify element property value successfully
+
+2019-11-27 12:07:41 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:07:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type XF", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:07:50 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\0.har
+
+2019-11-27 12:07:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:07:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:07:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:07:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:07:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:07:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:07:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:07:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:07:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:07:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:07:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD and Account not unique" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD and Account not unique" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:07:52 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD and Account not unique: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD and Account not unique
+
+2019-11-27 12:07:53 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:07:53 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:07:53 - [TEST_STEP][PASSED] - for ([i = 2, i < 3, (i++)]): Verify element property value successfully
+
+2019-11-27 12:07:53 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:07:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type CD and Account not unique", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:07:56 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\1.har
+
+2019-11-27 12:07:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:07:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:07:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:07:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:07:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:07:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:07:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:07:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:07:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:07:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:07:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD code missing" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD code missing" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:07:56 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD code missing: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type CD code missing
+
+2019-11-27 12:07:57 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:07:57 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:07:57 - [TEST_STEP][PASSED] - for ([i = 3, i < 4, (i++)]): Verify element property value successfully
+
+2019-11-27 12:07:57 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:07:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type CD code missing", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:00 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\2.har
+
+2019-11-27 12:08:00 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:00 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:01 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD
+
+2019-11-27 12:08:01 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:01 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:02 - [TEST_STEP][PASSED] - for ([i = 4, i < 5, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:02 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type OD", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:05 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\3.har
+
+2019-11-27 12:08:05 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TB" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TB" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:05 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TB: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TB
+
+2019-11-27 12:08:06 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:06 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:06 - [TEST_STEP][PASSED] - for ([i = 5, i < 6, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:06 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type TB", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:08 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\4.har
+
+2019-11-27 12:08:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TC" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TC" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:09 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TC: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TC
+
+2019-11-27 12:08:10 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:10 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:10 - [TEST_STEP][PASSED] - for ([i = 6, i < 7, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:10 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type TC", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:14 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\5.har
+
+2019-11-27 12:08:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TD" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TD" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:14 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TD: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type TD
+
+2019-11-27 12:08:15 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:15 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:16 - [TEST_STEP][PASSED] - for ([i = 7, i < 8, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:16 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS :" + i): null
+
+2019-11-27 12:08:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type TD", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:19 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\6.har
+
+2019-11-27 12:08:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account with out mandatory fields" classname="Test Cases/Create Sweep/Create a sweep for the DDA account with out mandatory fields" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:19 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account with out mandatory fields: Test Cases/Create Sweep/Create a sweep for the DDA account with out mandatory fields
+
+2019-11-27 12:08:20 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:20 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:21 - [TEST_STEP][PASSED] - for ([i = 8, i < 9, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:21 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account with out mandatory fields", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:23 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\7.har
+
+2019-11-27 12:08:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account duplicate driver presents" classname="Test Cases/Create Sweep/Create a sweep for the DDA account duplicate driver presents" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:23 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account duplicate driver presents: Test Cases/Create Sweep/Create a sweep for the DDA account duplicate driver presents
+
+2019-11-27 12:08:24 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:24 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:24 - [TEST_STEP][PASSED] - for ([i = 9, i < 10, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:24 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account duplicate driver presents", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:26 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\8.har
+
+2019-11-27 12:08:26 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account account number lass then origin" classname="Test Cases/Create Sweep/Create a sweep for the DDA account account number lass then origin" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:27 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account account number lass then origin: Test Cases/Create Sweep/Create a sweep for the DDA account account number lass then origin
+
+2019-11-27 12:08:27 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:27 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:28 - [TEST_STEP][PASSED] - for ([i = 10, i < 11, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:28 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account account number lass then origin", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:30 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\9.har
+
+2019-11-27 12:08:30 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type MF" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type MF" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:30 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type MF: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type MF
+
+2019-11-27 12:08:31 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:31 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:31 - [TEST_STEP][PASSED] - for ([i = 11, i < 12, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:31 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type MF", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:34 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\10.har
+
+2019-11-27 12:08:34 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD inv instr cde for driver type" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD inv instr cde for driver type" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:34 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD inv instr cde for driver type: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD inv instr cde for driver type
+
+2019-11-27 12:08:35 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:35 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:35 - [TEST_STEP][PASSED] - for ([i = 12, i < 13, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:35 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type OD inv instr cde for driver type", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:38 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\11.har
+
+2019-11-27 12:08:38 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:38 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD rel account info already exists" classname="Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD rel account info already exists" status="PASSED">
+         <system-out><![CDATA[2019-11-27 12:08:38 - [TEST_CASE][PASSED] - Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD rel account info already exists: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD rel account info already exists
+
+2019-11-27 12:08:39 - [TEST_STEP][PASSED] - str = "createSweepServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 12:08:39 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Create Sweep_TestData"): null
+
+2019-11-27 12:08:39 - [TEST_STEP][PASSED] - for ([i = 13, i < 14, (i++)]): Verify element property value successfully
+
+2019-11-27 12:08:39 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 12:08:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Sweep/Create a sweep for the DDA account for sweep type OD rel account info already exists", ["companyNbr":testdatapath.getValue(2, i), "sweepType":testdatapath.getValue(3, i), "originatingCompanyNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 12:08:42 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Sweep\20191127_120726\requests\main\12.har
+
+2019-11-27 12:08:42 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 12:08:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 12:08:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 12:08:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(26, i)): Verify element property value successfully
+
+2019-11-27 12:08:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(27, i)): Verify element property value successfully
+
+2019-11-27 12:08:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "detailMessages", testdatapath.getValue(28, i)): Verify element property value successfully
+
+2019-11-27 12:08:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 12:08:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(29, i)): Verify element property value successfully
+
+2019-11-27 12:08:42 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-27 12:07:35 - [TEST_SUITE][PASSED] - Create Sweep: Test Cases/Create Sweep/Create a sweep for the DDA account for sweep type OD rel account info already exists]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
