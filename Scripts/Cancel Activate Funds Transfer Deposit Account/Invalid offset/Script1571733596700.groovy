@@ -30,6 +30,7 @@ for (int i = 4; i < 5; i++) {
                     8, i)]))
 
     WS.verifyResponseStatusCode(response, 200)
+	
 
     WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(10, i))
 
