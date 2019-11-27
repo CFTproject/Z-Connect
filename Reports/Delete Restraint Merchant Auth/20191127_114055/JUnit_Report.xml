@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Delete Restraint Merchant Auth" time="47" tests="7" failures="0" errors="0">
+   <testsuite name="Delete Restraint Merchant Auth" tests="7" failures="0" errors="0" time="47" timestamp="2019-11-27 11:41:07" hostname="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN" id="Test Suites/Delete Restraint Merchant Auth">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Delete Restraint Merchant Auth\\20191127_114055"/>
+         <property name="logFiles" value="C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Delete Restraint Merchant Auth\\20191127_114055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN"/>
+         <property name="hostAddress" value="20.195.11.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all blank input fields" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all blank input fields" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:09 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all blank input fields: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all blank input fields
+
+2019-11-27 11:41:09 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:09 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:14 - [TEST_STEP][PASSED] - for ([i = 1, i < 2, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all blank input fields", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:31 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\0.har
+
+2019-11-27 11:41:32 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank account no and all other blank input fields" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank account no and all other blank input fields" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:32 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank account no and all other blank input fields: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank account no and all other blank input fields
+
+2019-11-27 11:41:33 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:33 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:34 - [TEST_STEP][PASSED] - for ([i = 2, i < 3, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank account no and all other blank input fields", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:36 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\1.har
+
+2019-11-27 11:41:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank product code and account no fields and all other blank input fields" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank product code and account no fields and all other blank input fields" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:36 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank product code and account no fields and all other blank input fields: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank product code and account no fields and all other blank input fields
+
+2019-11-27 11:41:37 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:37 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:37 - [TEST_STEP][PASSED] - for ([i = 3, i < 4, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank product code and account no fields and all other blank input fields", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:39 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\2.har
+
+2019-11-27 11:41:39 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:40 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank input fields Invalid placed date" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank input fields Invalid placed date" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:40 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank input fields Invalid placed date: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank input fields Invalid placed date
+
+2019-11-27 11:41:41 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:41 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:41 - [TEST_STEP][PASSED] - for ([i = 4, i < 5, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank input fields Invalid placed date", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:43 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\3.har
+
+2019-11-27 11:41:43 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:44 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields and blank placed date" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields and blank placed date" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:44 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields and blank placed date: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields and blank placed date
+
+2019-11-27 11:41:44 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:44 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:45 - [TEST_STEP][PASSED] - for ([i = 5, i < 6, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields and blank placed date", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:47 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\4.har
+
+2019-11-27 11:41:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:48 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:48 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields
+
+2019-11-27 11:41:48 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:48 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:49 - [TEST_STEP][PASSED] - for ([i = 6, i < 7, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:51 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\5.har
+
+2019-11-27 11:41:51 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record" classname="Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record" status="PASSED">
+         <system-out><![CDATA[2019-11-27 11:41:51 - [TEST_CASE][PASSED] - Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record
+
+2019-11-27 11:41:52 - [TEST_STEP][PASSED] - str = "deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.": null
+
+2019-11-27 11:41:52 - [TEST_STEP][PASSED] - testdatapath = findTestData("Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"): null
+
+2019-11-27 11:41:52 - [TEST_STEP][PASSED] - for ([i = 7, i < 8, (i++)]): Verify element property value successfully
+
+2019-11-27 11:41:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record", ["companyNbr":testdatapath.getValue(2, i), "productCd":testdatapath.getValue(3, i), "accountNbr":testdatapath.getValue(4, i), ... ])): Send request successfully
+
+2019-11-27 11:41:54 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Delete Restraint Merchant Auth\20191127_114055\requests\main\6.har
+
+2019-11-27 11:41:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 11:41:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 11:41:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 11:41:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "applicationCd", testdatapath.getValue(10, i)): Verify element property value successfully
+
+2019-11-27 11:41:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusCd", testdatapath.getValue(11, i)): Verify element property value successfully
+
+2019-11-27 11:41:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "statusMessage", testdatapath.getValue(12, i)): Verify element property value successfully
+
+2019-11-27 11:41:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 11:41:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, str + "severity", testdatapath.getValue(13, i)): Verify element property value successfully
+
+2019-11-27 11:41:54 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-27 11:41:07 - [TEST_SUITE][PASSED] - Delete Restraint Merchant Auth: Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
