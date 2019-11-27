@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>8915f553-4db5-4236-bfa4-388e4914e910</dataFileGUID>
-   <dataSourceUrl>C:\Users\khaja.h\Katalon Studio\Z_Connect_Projects\Data Files\Excel Files\Z_Connect_Projects.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\khaja.h\Katalon Studio\Z-Connect\Data Files\Excel Files\Z-Connect.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
