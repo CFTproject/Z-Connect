@@ -39,6 +39,7 @@ for (int i = 1; i < 4; i++) {
 	
 	WS.verifyResponseStatusCode(response, 200)
 	
+	
 	WS.verifyElementPropertyValue(response, 'changeAddressCustomerServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', findTestData('Z-Connect Test Data/Change Address Customer_TestData').getValue(17, i))
 	
 	WS.verifyElementPropertyValue(response, 'changeAddressCustomerServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', findTestData('Z-Connect Test Data/Change Address Customer_TestData').getValue(18, i))
