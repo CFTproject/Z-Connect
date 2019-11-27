@@ -36,7 +36,7 @@ for (int i = 4; i < 5; i++) {
     WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(11, i))
 
     WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(12, i))
-
 	
     WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(13, i))
+	
 }
