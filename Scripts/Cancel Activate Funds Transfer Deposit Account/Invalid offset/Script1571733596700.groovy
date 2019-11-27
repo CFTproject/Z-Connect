@@ -29,8 +29,7 @@ for (int i = 4; i < 5; i++) {
                     7, i), ('action') : findTestData('Z-Connect Test Data/Cancel Activate Funds Transfer Deposit Account_TestData').getValue(
                     8, i)]))
 
-    WS.verifyResponseStatusCode(response, 200)
-	
+    WS.verifyResponseStatusCode(response, 200)	
 
     WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(10, i))
 
