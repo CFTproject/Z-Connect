@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Create Address,,,2019-11-27 15:58:58,2019-11-27 15:59:49,51.686s,FAILED
-,,,,,,
-Test Cases/Create Address/Create Address Post Request Verify Response with valid Values,,,2019-11-27 15:58:58,2019-11-27 15:59:49,50.892s,FAILED
-"for ([i = 1, i < 10, (i++)])",,,2019-11-27 15:58:59,2019-11-27 15:59:49,50.057s,FAILED
