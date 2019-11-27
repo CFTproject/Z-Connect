@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Change Customer,,,2019-11-27 17:38:01,2019-11-27 17:38:47,45.925s,FAILED
+,,,,,,
+Test Cases/Change Customer/Change Customer For individual customer in CUMN screen,,,2019-11-27 17:38:02,2019-11-27 17:38:24,22.858s,PASSED
+"for ([i = 1, i < 3, (i++)])",,,2019-11-27 17:38:02,2019-11-27 17:38:24,22.122s,PASSED
+,,,,,,
+Test Cases/Change Customer/Change Customer For individual customer in CUAI screen,,,2019-11-27 17:38:24,2019-11-27 17:38:31,6.054s,PASSED
+"for ([i = 3, i < 4, (i++)])",,,2019-11-27 17:38:25,2019-11-27 17:38:31,5.705s,PASSED
+,,,,,,
+Test Cases/Change Customer/Change Customer For Business customer in CUCD screen,,,2019-11-27 17:38:31,2019-11-27 17:38:38,7.088s,FAILED
+"for ([i = 3, i < 4, (i++)])",,,2019-11-27 17:38:31,2019-11-27 17:38:38,6.499s,FAILED
+,,,,,,
+Test Cases/Change Customer/Change Customer Bank service information for a idividual customer in CUBK screen,,,2019-11-27 17:38:38,2019-11-27 17:38:43,5.271s,FAILED
+"for ([i = 4, i < 5, (i++)])",,,2019-11-27 17:38:38,2019-11-27 17:38:43,4.714s,FAILED
+,,,,,,
+Test Cases/Change Customer/Change Customer Bank relationship information for a idividual customer in CUBK screen,,,2019-11-27 17:38:43,2019-11-27 17:38:47,3.883s,FAILED
+"for ([i = 5, i < 6, (i++)])",,,2019-11-27 17:38:43,2019-11-27 17:38:47,3.517s,FAILED
