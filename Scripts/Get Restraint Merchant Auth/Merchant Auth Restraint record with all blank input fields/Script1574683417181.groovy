@@ -33,6 +33,4 @@ for (int i = 1; i < 2; i++) {
 	WS.verifyElementPropertyValue(response, str+'xStatus.severity', testdatapath.getValue(5, i))
 	
 	
-	
-	
 }
