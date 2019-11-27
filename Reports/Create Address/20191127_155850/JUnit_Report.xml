@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Address" time="51" tests="0" failures="1" errors="0">
+   <testsuite name="Create Address" tests="0" failures="1" errors="0" time="51" timestamp="2019-11-27 15:58:58" hostname="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN" id="Test Suites/Create Address">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Create Address\\20191127_155850"/>
+         <property name="logFiles" value="C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Create Address\\20191127_155850\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN"/>
+         <property name="hostAddress" value="20.195.11.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Create Address/Create Address Post Request Verify Response with valid Values" classname="Test Cases/Create Address/Create Address Post Request Verify Response with valid Values" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create Address/Create Address Post Request Verify Response with valid Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-27 15:58:58 - [TEST_CASE][FAILED] - Test Cases/Create Address/Create Address Post Request Verify Response with valid Values: Test Cases/Create Address/Create Address Post Request Verify Response with valid Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)
+
+
+2019-11-27 15:58:59 - [TEST_STEP][FAILED] - for ([i = 1, i < 10, (i++)]): for ([i = 1, i < 10, (i++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)
+
+
+2019-11-27 15:58:59 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:58:59 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:58:59 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:13 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\0.har
+
+2019-11-27 15:59:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:13 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:16 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:16 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:19 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\1.har
+
+2019-11-27 15:59:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:19 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:20 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:20 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:20 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:22 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\2.har
+
+2019-11-27 15:59:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:22 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:24 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:24 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:27 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\3.har
+
+2019-11-27 15:59:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:27 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:28 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:28 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:31 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\4.har
+
+2019-11-27 15:59:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:31 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:33 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:33 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:36 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\5.har
+
+2019-11-27 15:59:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:36 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:37 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:37 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): null
+
+2019-11-27 15:59:37 - [TEST_STEP][PASSED] - if (i == 7): Send request successfully
+
+2019-11-27 15:59:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create an address with non blank address line 1, postal code, iseZipTable Y All other input fields blank", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:40 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\6.har
+
+2019-11-27 15:59:40 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:41 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:41 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:44 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\7.har
+
+2019-11-27 15:59:44 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:44 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:44 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): Verify element property value successfully
+
+2019-11-27 15:59:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(16, i)): Verify element property value successfully
+
+2019-11-27 15:59:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(17, i)): Verify element property value successfully
+
+2019-11-27 15:59:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:45 - [TEST_STEP][PASSED] - println("EXCEL SHEET ROW NUMBER IS : " + i): null
+
+2019-11-27 15:59:45 - [TEST_STEP][PASSED] - if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 6 || i == 8 || i == 9): Send request successfully
+
+2019-11-27 15:59:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Create Address/Create Address Post Request Verify Response with valid Values", ["companyNbr":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(2, i), "addressLine1":findTestData("Z-Connect Test Data/Create Address_TestData").getValue(3, i), ... ])): Send request successfully
+
+2019-11-27 15:59:48 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\Z-Connect\Reports\Create Address\20191127_155850\requests\main\8.har
+
+2019-11-27 15:59:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-27 15:59:48 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2019-11-27 15:59:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-27 15:59:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-27 15:59:48 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(14, i)): Verify element property value successfully
+
+2019-11-27 15:59:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-27 15:59:49 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "createAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd", findTestData("Z-Connect Test Data/Create Address_TestData").getValue(15, i)): for ([i = 1, i < 10, (i++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)
+
+
+2019-11-27 15:59:49 - [MESSAGE][FAILED] - Expected element property value '64629' is not equal with actual property value '64197'
+
+2019-11-27 15:59:49 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+
+2019-11-27 15:59:49 - [MESSAGE][FAILED] - for ([i = 1, i < 10, (i++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-11-27 15:58:58 - [TEST_CASE][FAILED] - Test Cases/Create Address/Create Address Post Request Verify Response with valid Values: Test Cases/Create Address/Create Address Post Request Verify Response with valid Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-27 15:58:58 - [TEST_SUITE][FAILED] - Create Address: Test Cases/Create Address/Create Address Post Request Verify Response with valid Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-27 15:58:58 - [TEST_SUITE][FAILED] - Create Address: Test Cases/Create Address/Create Address Post Request Verify Response with valid Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '64629' is not equal with actual property value '64197')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Create Address Post Request Verify Response with valid Values.run(Create Address Post Request Verify Response with valid Values:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1574850530785.run(TempTestSuite1574850530785.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
