@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Delete Restraint Merchant Auth,,,2019-11-27 11:48:57,2019-11-27 11:49:33,36.253s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all blank input fields,,,2019-11-27 11:48:58,2019-11-27 11:49:10,11.944s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:48:59,2019-11-27 11:48:59,0.010s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:48:59,2019-11-27 11:49:01,2.559s,PASSED
+"for ([i = 1, i < 2, (i++)])",,,2019-11-27 11:49:01,2019-11-27 11:49:10,8.579s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank account no and all other blank input fields,,,2019-11-27 11:49:10,2019-11-27 11:49:14,4.279s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:49:10,2019-11-27 11:49:10,0.003s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:49:10,2019-11-27 11:49:11,0.672s,PASSED
+"for ([i = 2, i < 3, (i++)])",,,2019-11-27 11:49:11,2019-11-27 11:49:14,2.936s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank product code and account no fields and all other blank input fields,,,2019-11-27 11:49:14,2019-11-27 11:49:18,3.920s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:49:15,2019-11-27 11:49:15,0.002s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:49:15,2019-11-27 11:49:15,0.578s,PASSED
+"for ([i = 3, i < 4, (i++)])",,,2019-11-27 11:49:15,2019-11-27 11:49:18,2.679s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with non blank input fields Invalid placed date,,,2019-11-27 11:49:18,2019-11-27 11:49:22,3.935s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:49:19,2019-11-27 11:49:19,0.001s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:49:19,2019-11-27 11:49:19,0.491s,PASSED
+"for ([i = 4, i < 5, (i++)])",,,2019-11-27 11:49:19,2019-11-27 11:49:22,2.844s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields and blank placed date,,,2019-11-27 11:49:22,2019-11-27 11:49:26,4.339s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:49:23,2019-11-27 11:49:23,0.005s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:49:23,2019-11-27 11:49:23,0.467s,PASSED
+"for ([i = 5, i < 6, (i++)])",,,2019-11-27 11:49:23,2019-11-27 11:49:26,3.070s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields,,,2019-11-27 11:49:26,2019-11-27 11:49:30,3.357s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:49:27,2019-11-27 11:49:27,0.001s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:49:27,2019-11-27 11:49:27,0.401s,PASSED
+"for ([i = 6, i < 7, (i++)])",,,2019-11-27 11:49:27,2019-11-27 11:49:30,2.491s,PASSED
+,,,,,,
+Test Cases/Delete Restraint Merchant Auth/Delete Restraint Merchant Auth record with all valid non blank input fields for an non-existing record,,,2019-11-27 11:49:30,2019-11-27 11:49:33,3.470s,PASSED
+"str = ""deleteRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.xStatus.""",,,2019-11-27 11:49:30,2019-11-27 11:49:30,0.001s,PASSED
+"testdatapath = findTestData(""Z-Connect Test Data/Delete Restraint Merchant Auth_TestData"")",,,2019-11-27 11:49:30,2019-11-27 11:49:31,0.335s,PASSED
+"for ([i = 7, i < 8, (i++)])",,,2019-11-27 11:49:31,2019-11-27 11:49:33,2.544s,PASSED
