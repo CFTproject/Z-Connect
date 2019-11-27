@@ -35,7 +35,6 @@ for (int i = 11; i < 12; i++) {
 
     WS.verifyResponseStatusCode(response, 200)	
 	
-
     WS.verifyElementPropertyValue(response, 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
         findTestData('Z-Connect Test Data/Change Address_TestData').getValue(15, i))
 
