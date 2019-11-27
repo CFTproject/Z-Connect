@@ -37,8 +37,7 @@ for (int i = 1; i < 8; i++) {
                     11, i), ('chgPostalCd') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(12, i)
                 , ('userAcknowledge') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(13, i)]))
 
-    WS.verifyResponseStatusCode(response, 200)
-	
+    WS.verifyResponseStatusCode(response, 200)	
 
    WS.verifyElementPropertyValue(response, 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', findTestData('Z-Connect Test Data/Change Address_TestData').getValue(15, i))
    
