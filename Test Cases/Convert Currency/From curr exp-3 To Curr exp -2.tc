@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>From curr exp-3 To Curr exp -2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2dbc771-b7eb-49ef-9131-4b896866755e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>84607c71-5c3d-48c6-b171-4923bde785b7</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>89821615-32df-4308-a11d-ec74055e069f</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>3002cd71-cfa4-440d-b0c1-e111a3081e05</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>1a9dd1cb-67ff-4b63-80d3-470a0a347382</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create DDDA Orig transit routing equal to 0</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a96423d9-d27a-46fa-b85c-24335fd2cf0d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateSavingAccount_Post_Request_Verify_Response_with_Empty_Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>406736ec-8da6-4971-9d20-a69ee1f2f745</testCaseGuid>
+</TestCaseEntity>

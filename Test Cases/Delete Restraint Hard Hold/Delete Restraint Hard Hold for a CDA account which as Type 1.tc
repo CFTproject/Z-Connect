@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Restraint Hard Hold for a CDA account which as Type 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7d99ae5-ff9f-4235-8d75-82bddac1a344</testCaseGuid>
+</TestCaseEntity>

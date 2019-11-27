@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>For an account with no sweep drivers available</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0515883-c9ae-4d4d-b864-ffb6a20b4a21</testCaseGuid>
+</TestCaseEntity>

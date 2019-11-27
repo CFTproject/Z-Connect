@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>All limit fields 1 to check limit function of all restraint types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1bb81ef-0ec0-4f62-9659-639434f9836a</testCaseGuid>
+</TestCaseEntity>

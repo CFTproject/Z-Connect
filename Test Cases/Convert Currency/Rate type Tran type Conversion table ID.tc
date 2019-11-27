@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rate type Tran type Conversion table ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7f948f1-f079-4785-995c-b9f00e481356</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>8592e464-71b2-4d7d-9eb0-b3bd27ed91ff</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>bc903472-156b-410e-9771-ef9689bb2e6a</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>372af453-25f7-418b-890c-b45855f0c37f</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>a3ccb57c-bfc2-446f-adc0-80422913fde8</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

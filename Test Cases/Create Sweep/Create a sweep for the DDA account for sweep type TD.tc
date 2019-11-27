@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a sweep for the DDA account for sweep type TD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aae7b22e-142b-4c59-a143-74445d39fa9c</testCaseGuid>
+</TestCaseEntity>

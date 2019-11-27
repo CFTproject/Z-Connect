@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete restraint Hard Hold for a DDA account which as Type 10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac6f642a-607a-4261-9b75-86d00ef1aa66</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Restraint Merchant Auth record with non blank account no and all other blank input fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e792b5e-0a58-4a1f-86dc-60bb6009e771</testCaseGuid>
+</TestCaseEntity>

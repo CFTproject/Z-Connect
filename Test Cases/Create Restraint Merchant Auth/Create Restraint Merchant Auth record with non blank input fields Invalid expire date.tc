@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Restraint Merchant Auth record with non blank input fields Invalid expire date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13cffb87-0c08-481b-9fbc-2d9d8b3dc77c</testCaseGuid>
+</TestCaseEntity>

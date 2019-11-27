@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fee Flag S</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f579e68-c24b-4194-8ee6-fa365d1f486d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>4b734e52-c0ca-4e91-8dbb-e9e758c65d34</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>825c72d6-48dd-4f07-919f-bbd629dfcde3</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>fcbef261-a545-4e22-8e3f-c57752b61516</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>4f3a2c4f-992f-416b-871e-bbf884bbeb5f</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

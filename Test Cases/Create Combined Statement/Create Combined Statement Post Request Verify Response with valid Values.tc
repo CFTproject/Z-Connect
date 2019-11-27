@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Combined Statement Post Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>388f0370-6096-452f-afd1-7c115320a52e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>a15793ad-e057-4b3b-a51d-4ada4c602856</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>0711d5bd-c422-4425-a26f-4ec57441f647</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>78c8cf47-5287-462d-a9ae-8be2e2cf7baa</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>14dbf657-d4fb-4ce6-b2d6-b3e18ab98736</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

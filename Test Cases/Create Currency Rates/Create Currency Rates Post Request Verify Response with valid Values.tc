@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Currency Rates Post Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3077b0e5-4c88-4d36-a819-aa4c8a7ac506</testCaseGuid>
+</TestCaseEntity>

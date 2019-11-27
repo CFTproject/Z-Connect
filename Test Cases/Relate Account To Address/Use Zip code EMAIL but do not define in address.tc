@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Use Zip code EMAIL but do not define in address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bab5a5de-e605-40b8-bea2-a41f21ebab64</testCaseGuid>
+</TestCaseEntity>

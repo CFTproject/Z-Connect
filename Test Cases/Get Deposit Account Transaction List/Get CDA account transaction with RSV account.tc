@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get CDA account transaction with RSV account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea5ae80f-cd8b-4350-803c-137740dfb9e0</testCaseGuid>
+</TestCaseEntity>

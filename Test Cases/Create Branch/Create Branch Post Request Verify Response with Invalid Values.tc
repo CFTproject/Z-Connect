@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Branch Post Request Verify Response with Invalid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a58541c1-7624-4a82-8372-c5a1f4e75570</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>865933be-1992-4868-abaf-5034a2462864</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>e44e726a-22b3-4e9e-9dc1-86c4a251ca26</id>
+      <masked>false</masked>
+      <name>errorDetails</name>
+   </variable>
+</TestCaseEntity>

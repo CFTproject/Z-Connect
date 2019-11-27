@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Restraint Stop Pay Post Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>930de912-8c91-4a94-bf4c-b006b1d16e57</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Stop Pay')</defaultValue>
+      <description></description>
+      <id>c6960fb9-55c1-424e-bba7-8d0f20cb4ace</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Stop Pay')</defaultValue>
+      <description></description>
+      <id>fe056ae4-58b9-4fb9-956d-869e188e2e09</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Stop Pay')</defaultValue>
+      <description></description>
+      <id>94b6e9b5-d586-4dde-a315-b6c93b5ea103</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Stop Pay')</defaultValue>
+      <description></description>
+      <id>2390210a-2d4e-466f-a94f-c95520b47bc0</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

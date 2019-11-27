@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete account with productcd RSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39860fcf-fc5f-4c76-8fde-55a2b9c0baea</testCaseGuid>
+</TestCaseEntity>

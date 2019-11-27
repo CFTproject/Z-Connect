@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Hardhold Restraint Post Request Verify Response with Empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39d7cf54-40d5-431a-9a07-b08361f5ed9c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData')</defaultValue>
+      <description></description>
+      <id>c61a9be5-2c5b-43e1-ac15-948769024fa5</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData')</defaultValue>
+      <description></description>
+      <id>fd6914be-cabf-4bb9-96df-7c5c3315876b</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData')</defaultValue>
+      <description></description>
+      <id>713928b5-d9bd-493d-a552-925e75a692aa</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData')</defaultValue>
+      <description></description>
+      <id>bca3b40d-f850-4026-ade4-c7d567c18f86</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

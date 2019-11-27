@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Address Customer Patch Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31eb02dc-547b-4c75-aa33-d7ee1475cc7c</testCaseGuid>
+</TestCaseEntity>

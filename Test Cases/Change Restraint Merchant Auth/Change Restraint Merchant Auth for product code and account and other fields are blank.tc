@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Restraint Merchant Auth for product code and account and other fields are blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5611decf-f25a-4c74-b3a5-aedb0b4ceb19</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Restraint Pledge To Post Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a39398cb-9d0f-40ff-a4db-d6de9bbbefbc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Pledge To_TestData')</defaultValue>
+      <description></description>
+      <id>03a83f47-1a8c-4e4d-9130-4c432bc30a67</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Pledge To_TestData')</defaultValue>
+      <description></description>
+      <id>da59db78-5675-4bbd-9431-366873c3a5e1</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Pledge To_TestData')</defaultValue>
+      <description></description>
+      <id>8c1f9e21-21bf-4210-8b20-68f89bbb04d4</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Pledge To_TestData')</defaultValue>
+      <description></description>
+      <id>71fdfc58-acfd-4444-b321-a3d468968e87</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Mandatory field restraint Stp VarKey Expire Date blank and Placed Date blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3984f0d1-3437-493f-ab74-178620f1c933</testCaseGuid>
+</TestCaseEntity>

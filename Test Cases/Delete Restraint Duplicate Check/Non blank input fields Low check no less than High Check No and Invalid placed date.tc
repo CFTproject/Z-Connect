@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Non blank input fields Low check no less than High Check No and Invalid placed date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48da52b6-0412-4cc1-b815-7cd98c3549b2</testCaseGuid>
+</TestCaseEntity>

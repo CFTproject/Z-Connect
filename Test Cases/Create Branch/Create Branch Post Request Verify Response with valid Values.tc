@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Branch Post Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c55dd05-2d66-4d55-9735-c5d450567565</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>c6500616-bdca-4d01-82fb-57d3dcebeb48</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>181c28be-2116-4eb8-a19b-c871cf8bb729</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>bc864a51-b6f3-4af1-8c76-292ad9b559f2</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>78565b37-eebf-4f7d-8bb3-184dac192b25</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

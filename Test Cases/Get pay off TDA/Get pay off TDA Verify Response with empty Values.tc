@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get pay off TDA Verify Response with empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f60546c2-5a93-4a17-b7ff-57b82481f965</testCaseGuid>
+</TestCaseEntity>

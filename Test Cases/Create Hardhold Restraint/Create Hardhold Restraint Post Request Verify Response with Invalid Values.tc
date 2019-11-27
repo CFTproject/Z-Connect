@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Hardhold Restraint Post Request Verify Response with Invalid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84a0eba8-46e0-4a74-bb9a-d074bce41b30</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData')</defaultValue>
+      <description></description>
+      <id>34dd6672-9dfe-4aff-bca6-e6aad11ba25d</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData')</defaultValue>
+      <description></description>
+      <id>e1bc713f-557e-4e82-8b2e-b05688621175</id>
+      <masked>false</masked>
+      <name>errorDetails</name>
+   </variable>
+</TestCaseEntity>

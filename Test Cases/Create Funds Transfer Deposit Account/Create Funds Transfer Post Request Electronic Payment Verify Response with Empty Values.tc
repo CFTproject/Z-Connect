@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Funds Transfer Post Request Electronic Payment Verify Response with Empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5f9cd46-3319-46d1-8ac3-bcd3b13d0b5f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Funds Transfer_TestData')</defaultValue>
+      <description></description>
+      <id>8ec354e5-79b8-47db-bd96-2d32a4b91679</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Funds Transfer_TestData')</defaultValue>
+      <description></description>
+      <id>b4bb91e6-3ca5-409a-9b6c-6370fb1b5d77</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Funds Transfer_TestData')</defaultValue>
+      <description></description>
+      <id>8f9e9850-2062-45ce-937f-7893e38d158a</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Funds Transfer_TestData')</defaultValue>
+      <description></description>
+      <id>88e29b97-614b-441f-b69f-9b38a1a90d73</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

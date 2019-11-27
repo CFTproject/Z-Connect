@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get CDA account transaction with from Amount and to Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b0e522a-8247-4978-b641-c6b78420ae94</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dup Check Restraint record with non blank product code and account No and all other blank input fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e97cff8c-0ea7-4b95-ba23-fbc3e8d23573</testCaseGuid>
+</TestCaseEntity>

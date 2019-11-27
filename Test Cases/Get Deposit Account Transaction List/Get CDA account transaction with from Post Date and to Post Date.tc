@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get CDA account transaction with from Post Date and to Post Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd8dc552-a0e6-4d93-93a8-812879c4305e</testCaseGuid>
+</TestCaseEntity>

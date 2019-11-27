@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Restraint Pledge To Post Request Verify Response with invalid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>463911be-c13c-4a9d-bc9d-d924fdca90d9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Pledge To_TestData')</defaultValue>
+      <description></description>
+      <id>1405324a-a57e-4e3d-afc7-76f11ceda5a3</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Pledge To_TestData')</defaultValue>
+      <description></description>
+      <id>c49ccf3f-482c-4147-89a9-855998d93771</id>
+      <masked>false</masked>
+      <name>errorDetails</name>
+   </variable>
+</TestCaseEntity>

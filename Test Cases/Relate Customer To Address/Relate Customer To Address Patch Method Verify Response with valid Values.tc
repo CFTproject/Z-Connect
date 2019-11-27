@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Relate Customer To Address Patch Method Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed9fd16f-7020-466d-97a0-937b1efc8d8f</testCaseGuid>
+</TestCaseEntity>

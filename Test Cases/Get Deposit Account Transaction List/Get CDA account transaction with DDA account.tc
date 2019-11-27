@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get CDA account transaction with DDA account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e74f3c82-078f-4f61-bfff-36bcb489e905</testCaseGuid>
+</TestCaseEntity>

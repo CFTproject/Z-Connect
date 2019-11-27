@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete account with productcd REA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd8f7356-b234-40ce-8807-58fe470facc3</testCaseGuid>
+</TestCaseEntity>

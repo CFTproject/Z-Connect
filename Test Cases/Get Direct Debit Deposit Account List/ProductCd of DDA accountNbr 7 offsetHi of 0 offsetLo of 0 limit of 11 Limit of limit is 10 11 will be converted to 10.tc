@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ProductCd of DDA accountNbr 7 offsetHi of 0 offsetLo of 0 limit of 11 Limit of limit is 10 11 will be converted to 10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb5c99ec-a0b7-4e01-8ffb-17f8ffdbfeb8</testCaseGuid>
+</TestCaseEntity>

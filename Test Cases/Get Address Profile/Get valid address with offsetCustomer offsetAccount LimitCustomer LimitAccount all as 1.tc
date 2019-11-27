@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get valid address with offsetCustomer offsetAccount LimitCustomer LimitAccount all as 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4e5e9bc-11bb-49e7-a406-426b862e03b6</testCaseGuid>
+</TestCaseEntity>

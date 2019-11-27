@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Currency Rate cannot be zeroes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da960bf2-0c98-41b0-a3fc-9883fe936036</testCaseGuid>
+</TestCaseEntity>

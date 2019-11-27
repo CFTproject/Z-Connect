@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get a HardHold restraint for an account with mandatory field Account number blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd4aa915-2337-46bd-9fa7-a9e3c563d364</testCaseGuid>
+</TestCaseEntity>

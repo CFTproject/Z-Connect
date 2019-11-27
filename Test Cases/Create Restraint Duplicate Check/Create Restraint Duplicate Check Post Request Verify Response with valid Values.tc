@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Restraint Duplicate Check Post Request Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9e8952c-e0fa-406e-84fd-470659632fd1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData')</defaultValue>
+      <description></description>
+      <id>7c48bfa9-0ce8-48e9-907a-902495ae7a16</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData')</defaultValue>
+      <description></description>
+      <id>2ffe8a61-16ea-4b2b-a00c-897340a58429</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData')</defaultValue>
+      <description></description>
+      <id>6fb3b269-d82c-469c-bbce-943526549c5f</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData')</defaultValue>
+      <description></description>
+      <id>082350dc-d09a-4661-9ca5-4cb612e89d6b</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

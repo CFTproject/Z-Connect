@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get CDA account transaction with non existing Account number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f61a882-c1bf-47f5-b85e-7be5fda40f72</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get a HardHold restraint for a REA account which as Type 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc3d7a54-13df-4e47-9f30-001c2abfaab2</testCaseGuid>
+</TestCaseEntity>

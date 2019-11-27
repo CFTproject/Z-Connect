@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Funds Transfer Deposit Account List Verify Response with empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faa6eca2-a377-4eba-a45e-1a6be3471610</testCaseGuid>
+</TestCaseEntity>

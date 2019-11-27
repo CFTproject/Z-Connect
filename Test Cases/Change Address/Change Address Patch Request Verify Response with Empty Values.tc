@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Address Patch Request Verify Response with Empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdaf26ab-61d9-4fb5-9dc4-9252ea7fc5d9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>fee7eb1e-7159-4d73-872a-99bc5a92a403</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>a38fdd80-2ff8-4d9a-bb87-b6b0bb57b414</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>19898215-9753-4659-bf3b-317dcf775cb7</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Branch_TestData')</defaultValue>
+      <description></description>
+      <id>7b5921a5-963d-40ae-90da-be2039058027</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

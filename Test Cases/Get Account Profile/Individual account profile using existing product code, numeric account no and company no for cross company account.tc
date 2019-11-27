@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Individual account profile using existing product code, numeric account no and company no for cross company account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b555df2f-c58e-49f2-9910-2239ccb77d2b</testCaseGuid>
+</TestCaseEntity>

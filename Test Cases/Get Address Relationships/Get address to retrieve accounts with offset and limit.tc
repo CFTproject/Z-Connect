@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get address to retrieve accounts with offset and limit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c900042c-5a98-48fc-8520-512c1fbf47e8</testCaseGuid>
+</TestCaseEntity>

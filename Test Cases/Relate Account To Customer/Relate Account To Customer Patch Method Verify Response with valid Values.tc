@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Relate Account To Customer Patch Method Verify Response with valid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c36f4c69-caf1-4a27-b932-29f5384aa6a7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dup Check Restraint record with non blank input fields Low check nogreater than High Check No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>115bdf96-1963-4755-b43e-94f5cfbf88d9</testCaseGuid>
+</TestCaseEntity>

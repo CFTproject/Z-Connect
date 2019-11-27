@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change record with non blank product code and account no fields and all other blank input fields less than High Check No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e33dc3b5-8a38-4062-9a7e-cb3223de2e63</testCaseGuid>
+</TestCaseEntity>

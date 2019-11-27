@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get address with date filtering Use date range when no account or customer available for address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acec1450-94ac-4aec-8c63-bec890d9dc4e</testCaseGuid>
+</TestCaseEntity>

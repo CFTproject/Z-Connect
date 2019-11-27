@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get valid address with offsetCustomer offsetAccount as less than number of customers and number of accounts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37fb4abb-5d10-43b5-9a3e-6cd5d85f51de</testCaseGuid>
+</TestCaseEntity>

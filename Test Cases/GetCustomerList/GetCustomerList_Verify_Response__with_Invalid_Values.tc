@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetCustomerList_Verify_Response__with_Invalid_Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6080e883-a77b-466b-aec4-2a63f7364780</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>d8adb675-98a7-43da-878e-dbb031637576</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>4a6bbec8-c61c-4567-9ddf-abf7a2dfce62</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>2b2ca4e4-b253-4fb0-8c73-c044020fa5eb</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>f3aaf1d4-2927-47ca-af68-c9cfea6741b1</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>7b182cbf-6e92-41af-9277-43a68684f9fa</id>
+      <masked>false</masked>
+      <name>offset</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>30ba1318-453c-4a26-b9cd-b5f8c121e02f</id>
+      <masked>false</masked>
+      <name>limit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>9cfa4b50-6c36-40ea-8141-45af42b63275</id>
+      <masked>false</masked>
+      <name>customerCompanyNbr</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>48585ae3-e933-4be6-bbf3-24845eb85fc4</id>
+      <masked>false</masked>
+      <name>customerNameLine1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>4b89311d-8b7c-479a-93db-ccd450692167</id>
+      <masked>false</masked>
+      <name>customerKey</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>becf1cb0-d387-4a0c-a609-d28bf98b5b18</id>
+      <masked>false</masked>
+      <name>tieBreakerNbr</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>fc62fb87-8d1e-4561-9373-aedc11eae554</id>
+      <masked>false</masked>
+      <name>customerNbr</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>28b41fd6-f13a-4670-9ecf-6ebdccd6d434</id>
+      <masked>false</masked>
+      <name>taxPayerNbr</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>e29b7c3e-201d-47c4-890e-213881bcf87c</id>
+      <masked>false</masked>
+      <name>customerAddressLine1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>376a55ed-60d0-46c8-bc1e-ae8c0cb31e02</id>
+      <masked>false</masked>
+      <name>customerAddressLine2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>89700a50-6540-4acf-9398-9c1b431d12e2</id>
+      <masked>false</masked>
+      <name>customerAddressLine3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>335be4e9-a7e4-413c-b7f7-4a0d6f769d93</id>
+      <masked>false</masked>
+      <name>customerCity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>ae199671-efdf-4204-bc6c-6710e9ead04d</id>
+      <masked>false</masked>
+      <name>customerState</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>251348e8-cf40-4a0b-9612-4e924e275281</id>
+      <masked>false</masked>
+      <name>customerPostalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>a048cb1d-939e-48b6-88ed-17e45e5d4ec2</id>
+      <masked>false</masked>
+      <name>customerCountryCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/GetCustomerList_TestData')</defaultValue>
+      <description></description>
+      <id>d75e84ce-fb3a-4d26-a827-0bc83e89740e</id>
+      <masked>false</masked>
+      <name>birthDt</name>
+   </variable>
+</TestCaseEntity>

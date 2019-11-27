@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get a PledgeTo restraint for a CDA account pledgeToType 2 and sequenceNbr 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f252f839-81ff-426f-9521-18af5d7842c4</testCaseGuid>
+</TestCaseEntity>

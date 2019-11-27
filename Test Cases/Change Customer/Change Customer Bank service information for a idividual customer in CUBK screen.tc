@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change Customer Bank service information for a idividual customer in CUBK screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aedfc8df-e235-49a3-a54f-cbd33a6cf6d0</testCaseGuid>
+</TestCaseEntity>

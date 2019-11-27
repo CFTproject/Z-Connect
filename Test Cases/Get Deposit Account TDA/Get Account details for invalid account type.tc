@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Account details for invalid account type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2ef3d29-b6b3-4492-ba13-9130a42b9f15</testCaseGuid>
+</TestCaseEntity>

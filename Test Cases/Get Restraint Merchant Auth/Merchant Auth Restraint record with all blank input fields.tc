@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Merchant Auth Restraint record with all blank input fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de05175a-fb2e-412a-8172-5a05c7a35da3</testCaseGuid>
+</TestCaseEntity>

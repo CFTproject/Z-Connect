@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Restraint Duplicate Check record with non blank account no and all other blank input fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd9aaf9a-7586-4a55-bf29-5aaca6f3ac90</testCaseGuid>
+</TestCaseEntity>

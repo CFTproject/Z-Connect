@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change No fields Mandatory fields and prod code blank Mandatory field Account Number Zero Mandatory field type zero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>243a0403-492d-496c-b4b3-38d5796c25f4</testCaseGuid>
+</TestCaseEntity>

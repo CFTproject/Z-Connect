@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Branch code with invalid effdate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1be834c-59ca-43d4-8fed-c01f6d331f1a</testCaseGuid>
+</TestCaseEntity>

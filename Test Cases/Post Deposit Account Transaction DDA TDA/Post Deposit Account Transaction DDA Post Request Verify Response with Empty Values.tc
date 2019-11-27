@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Deposit Account Transaction DDA Post Request Verify Response with Empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3084e7c-6454-40c0-aa74-8428e5cb8867</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
+      <description></description>
+      <id>fb0f7c26-7d75-4410-9a12-1e03a42a0b6d</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
+      <description></description>
+      <id>ede8e00e-6ca8-4992-b06a-6424e5c7da93</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
+      <description></description>
+      <id>b04b0759-8c5f-427c-aded-42591aac19eb</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
+      <description></description>
+      <id>b03955c4-a3fd-4202-8640-9d23ea7038f5</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>

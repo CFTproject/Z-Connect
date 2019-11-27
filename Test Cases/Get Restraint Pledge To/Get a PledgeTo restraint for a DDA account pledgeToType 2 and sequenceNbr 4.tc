@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get a PledgeTo restraint for a DDA account pledgeToType 2 and sequenceNbr 4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf11701e-2598-47fb-a70d-a741dc5dc076</testCaseGuid>
+</TestCaseEntity>

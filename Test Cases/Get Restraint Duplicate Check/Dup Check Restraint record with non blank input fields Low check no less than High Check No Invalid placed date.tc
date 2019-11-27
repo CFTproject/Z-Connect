@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dup Check Restraint record with non blank input fields Low check no less than High Check No Invalid placed date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>458793ac-a6c8-4340-a7bd-909edaef0ef1</testCaseGuid>
+</TestCaseEntity>

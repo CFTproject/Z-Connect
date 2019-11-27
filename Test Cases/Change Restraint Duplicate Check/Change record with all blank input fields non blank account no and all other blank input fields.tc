@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change record with all blank input fields non blank account no and all other blank input fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3eef2e3-42a8-4c5c-a12b-a9ebddaf3a92</testCaseGuid>
+</TestCaseEntity>

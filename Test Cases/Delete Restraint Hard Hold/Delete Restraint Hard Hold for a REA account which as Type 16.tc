@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Restraint Hard Hold for a REA account which as Type 16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc45224f-9912-4138-a528-776d78f5a871</testCaseGuid>
+</TestCaseEntity>

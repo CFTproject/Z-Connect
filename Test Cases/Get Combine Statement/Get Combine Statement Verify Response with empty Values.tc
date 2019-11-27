@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Combine Statement Verify Response with empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0cd9583b-f745-4b01-90ce-cee847b45b1f</testCaseGuid>
+</TestCaseEntity>

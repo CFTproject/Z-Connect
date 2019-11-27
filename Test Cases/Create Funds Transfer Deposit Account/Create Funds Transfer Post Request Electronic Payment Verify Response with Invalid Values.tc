@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Funds Transfer Post Request Electronic Payment Verify Response with Invalid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40d8a20e-5c2c-44ed-a4b6-a9dfb484979b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Funds Transfer_TestData')</defaultValue>
+      <description></description>
+      <id>5c313bd0-c1f6-4440-a2a2-c1467b7eda51</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+</TestCaseEntity>

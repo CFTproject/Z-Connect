@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change the city, state and zip of an account or a customer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>561ebed8-54aa-4997-824f-624e0b0d3489</testCaseGuid>
+</TestCaseEntity>

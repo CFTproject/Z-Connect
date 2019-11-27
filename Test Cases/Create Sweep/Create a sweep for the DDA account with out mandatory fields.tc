@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a sweep for the DDA account with out mandatory fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36e47421-fd29-4419-8686-e93d1c98e909</testCaseGuid>
+</TestCaseEntity>

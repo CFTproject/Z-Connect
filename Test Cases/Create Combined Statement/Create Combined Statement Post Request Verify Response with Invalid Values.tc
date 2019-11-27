@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Combined Statement Post Request Verify Response with Invalid Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5217ec4-4af3-4d4c-805c-8b1894466e1c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>28b580fa-2de6-470d-96c6-532bc7a5bdeb</id>
+      <masked>false</masked>
+      <name>errorMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Combined Statement_TestData')</defaultValue>
+      <description></description>
+      <id>89d62c85-4ab4-4767-98d9-40497e58dd8f</id>
+      <masked>false</masked>
+      <name>errorDetails</name>
+   </variable>
+</TestCaseEntity>

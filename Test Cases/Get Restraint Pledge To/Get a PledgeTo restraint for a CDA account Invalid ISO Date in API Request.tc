@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get a PledgeTo restraint for a CDA account Invalid ISO Date in API Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc2b56ae-5b44-43d3-9c72-9b9d559739ca</testCaseGuid>
+</TestCaseEntity>

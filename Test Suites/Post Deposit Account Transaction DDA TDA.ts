@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Post Deposit Account Transaction DDA TDA</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>a3921f8e-4197-48ab-98f2-12445126f6f8</testSuiteGuid>
+   <testCaseLink>
+      <guid>3921ae24-e2af-4489-901b-49f5b217a82c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction TDA Post Request Verify Response with valid Values</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6674ae4b-662b-4e61-8d2a-74f099fb1d1d</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData</testDataId>
+      </testDataLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c0e4142-bc47-46b2-ac46-da1f7a0734b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction TDA Post Request Verify Response with Empty Values</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>541840d4-c76d-4578-a0b1-5fc7ae29881d</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>5</value>
+         </iterationEntity>
+         <testDataId>Data Files/Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>541840d4-c76d-4578-a0b1-5fc7ae29881d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>applicationCd</value>
+         <variableId>7a469601-0e9f-4f9e-9086-288e4ef582fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>541840d4-c76d-4578-a0b1-5fc7ae29881d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusCd</value>
+         <variableId>20c19187-94fc-4dbe-8c6f-64798000fa01</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>541840d4-c76d-4578-a0b1-5fc7ae29881d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusMessage</value>
+         <variableId>363d3ad0-3283-4ecd-a64d-aae17af1b058</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>541840d4-c76d-4578-a0b1-5fc7ae29881d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>severity</value>
+         <variableId>7eded16a-242b-45c0-8127-fb9d8bb5971d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8bef2460-3ab6-47f9-822e-88974cc927a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction TDA Post Request Verify Response with Invalid Values</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f041651-30a4-482d-a876-a0a5408bc399</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction DDA Post Request Verify Response with valid Values</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0b3881e2-bca1-4888-9e26-273611bb7705</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0b3881e2-bca1-4888-9e26-273611bb7705</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>applicationCd</value>
+         <variableId>9f252756-cd54-42ab-9170-22ca9a774baf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0b3881e2-bca1-4888-9e26-273611bb7705</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusCd</value>
+         <variableId>80b465a0-8754-46be-a633-31684cf37b27</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0b3881e2-bca1-4888-9e26-273611bb7705</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusMessage</value>
+         <variableId>1c13be96-907e-4ac7-ba8a-4487a0426160</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0b3881e2-bca1-4888-9e26-273611bb7705</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>severity</value>
+         <variableId>1293122d-1d08-4ad8-acd9-e51c7d946b45</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1feac9c0-d084-4e57-bdfd-f8161c4f687a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction DDA Post Request Verify Response with Empty Values</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>03d296d3-22f1-448b-9572-08c919ad9e39</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>03d296d3-22f1-448b-9572-08c919ad9e39</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>applicationCd</value>
+         <variableId>fb0f7c26-7d75-4410-9a12-1e03a42a0b6d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>03d296d3-22f1-448b-9572-08c919ad9e39</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusCd</value>
+         <variableId>ede8e00e-6ca8-4992-b06a-6424e5c7da93</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>03d296d3-22f1-448b-9572-08c919ad9e39</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statusMessage</value>
+         <variableId>b04b0759-8c5f-427c-aded-42591aac19eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>03d296d3-22f1-448b-9572-08c919ad9e39</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>severity</value>
+         <variableId>b03955c4-a3fd-4202-8640-9d23ea7038f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3cd670b-6bfa-4a3d-a765-c7b461324ac8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction DDA Post Request Verify Response with Invalid Values</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

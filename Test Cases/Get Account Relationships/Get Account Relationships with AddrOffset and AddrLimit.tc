@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Account Relationships with AddrOffset and AddrLimit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a41882cb-ef14-4edb-b33c-68a795a78227</testCaseGuid>
+</TestCaseEntity>

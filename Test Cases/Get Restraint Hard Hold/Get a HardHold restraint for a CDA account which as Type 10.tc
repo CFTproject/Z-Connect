@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get a HardHold restraint for a CDA account which as Type 10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e601ba0f-69e6-42e4-a5d7-1a723d15857e</testCaseGuid>
+</TestCaseEntity>

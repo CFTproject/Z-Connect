@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dup Check Restraint record with all valid non blank input fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c62d562-6442-4274-96a5-6f6a596cdc74</testCaseGuid>
+</TestCaseEntity>

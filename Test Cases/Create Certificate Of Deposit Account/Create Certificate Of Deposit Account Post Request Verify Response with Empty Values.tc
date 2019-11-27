@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Certificate Of Deposit Account Post Request Verify Response with Empty Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef016b7e-c6b9-40f4-a3a2-a17425f058ee</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
+      <description></description>
+      <id>902151b4-503e-4785-a446-f95f07248428</id>
+      <masked>false</masked>
+      <name>applicationCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
+      <description></description>
+      <id>36c760de-2422-409f-aaa6-de31339b9a78</id>
+      <masked>false</masked>
+      <name>statusCd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
+      <description></description>
+      <id>188cf97e-b9a1-4843-879e-e74cf2860517</id>
+      <masked>false</masked>
+      <name>statusmessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
+      <description></description>
+      <id>68efa978-8ec1-4c79-bae5-6456ae2da56a</id>
+      <masked>false</masked>
+      <name>severity</name>
+   </variable>
+</TestCaseEntity>
