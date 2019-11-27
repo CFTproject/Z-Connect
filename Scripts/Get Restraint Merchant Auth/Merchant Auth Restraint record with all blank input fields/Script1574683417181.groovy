@@ -17,8 +17,7 @@ String str = 'getRestraintMerchantAuthServiceOperationResponse.RESPONSE.Output.'
 
 testdatapath = findTestData('Z-Connect Test Data/Get Restraint Merchant Auth_TestData')
 
-for (int i = 1; i < 2; i++) {	
-	
+for (int i = 1; i < 2; i++) {		
     println('EXCEL SHEET ROW NUMBER IS :' + i)
 
     response = WS.sendRequest(findTestObject('Get Restraint Merchant Auth/Merchant Auth Restraint record with all blank input fields'))
