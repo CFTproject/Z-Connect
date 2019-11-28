@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'createSavingsAccountServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Create Saving Account_TestData')
+
 response = WS.sendRequest(findTestObject('Create Saving Account/Create Saving Account Post Request Verify Response with Invalid Values'))
 
 WS.verifyResponseStatusCode(response, 400)
@@ -20,6 +24,5 @@ WS.verifyResponseStatusCode(response, 400)
 for (int i = 3; i < 4; i++) {
     println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-    WS.verifyElementPropertyValue(response, 'errorMessage', findTestData('Z-Connect Test Data/Create Saving Account_TestData').getValue(
-            6, i))
+    WS.verifyElementPropertyValue(response, 'errorMessage', testdatapath.getValue(6, i))
 }

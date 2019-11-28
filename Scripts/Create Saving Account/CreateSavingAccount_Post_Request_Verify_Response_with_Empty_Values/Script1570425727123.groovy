@@ -13,21 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'createSavingsAccountServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Create Saving Account_TestData')
+
 response = WS.sendRequest(findTestObject('Create Saving Account/Create Saving Account Post Request Verify Response with Empty Values'))
 
 WS.verifyResponseStatusCode(response, 200)
 
 for (int i = 2; i < 3; i++) {
-	println ('EXCEL SHEET ROW NUMBER IS :'+i)
-    WS.verifyElementPropertyValue(response, 'createSavingsAccountServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
-        findTestData('Z-Connect Test Data/Create Saving Account_TestData').getValue(2, i))
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-    WS.verifyElementPropertyValue(response, 'createSavingsAccountServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', findTestData(
-            'Z-Connect Test Data/Create Saving Account_TestData').getValue(3, i))
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(2, i))
 
-    WS.verifyElementPropertyValue(response, 'createSavingsAccountServiceOperationResponse.RESPONSE.Output.xStatus.statusmessage', 
-        findTestData('Z-Connect Test Data/Create Saving Account_TestData').getValue(4, i))
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(3, i))
 
-    WS.verifyElementPropertyValue(response, 'createSavingsAccountServiceOperationResponse.RESPONSE.Output.xStatus.severity', findTestData(
-            'Z-Connect Test Data/Create Saving Account_TestData').getValue(5, i))
+    WS.verifyElementPropertyValue(response, str + 'statusmessage', testdatapath.getValue(4, i))
+
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(5, i))
 }
