@@ -45,5 +45,6 @@ for (int i = 5; i < 6; i++) {
 
     WS.verifyElementPropertyValue(response, 'changeCustomerServiceOperationResponse.RESPONSE.Output.xStatus.severity', findTestData(
             'Z-Connect Test Data/Change Customer_TestData').getValue(18, i))
+	
 }
 
