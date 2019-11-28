@@ -13,10 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Create Certificate Of Deposit Account/Create Certificate Of Deposit AccountPost Request Verify Response with Invalid Values'))
+String str = 'createCertificateOfDepositAccountServiceOperationResponse.RESPONSE.Output.xStatus.'
 
-WS.verifyResponseStatusCode(response, 400)
+testdatapath = findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')
 
-WS.verifyElementPropertyValue(response, 'errorMessage', 'BAQR0429W: API createCertificateOfDepositAccount encountered an error while processing a request under URL https://20.14.209.1:9443/createCertificateOfDepositAccount/createCertificateOfDepositAccount.')
+for (int i = 3; i < 4; i++) {
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-WS.verifyElementPropertyValue(response, 'errorDetails', 'com.ibm.zosconnect.wv.transaction.messages.walkers.MessageWalkerException: GMOMW0005E: A data type conversion error occurred while the leaf field Input.ownerCode of service interface null was converted: IWAA1111E: String 034561 exceeds maximum length of 2..')
+    response = WS.sendRequest(findTestObject('Create Certificate Of Deposit Account/Create Certificate Of Deposit AccountPost Request Verify Response with Invalid Values'))
+
+    WS.verifyResponseStatusCode(response, 400)
+
+    WS.verifyElementPropertyValue(response, 'errorMessage', testdatapath.getValue(6, i))
+
+    WS.verifyElementPropertyValue(response, 'errorDetails', testdatapath.getValue(7, i))
+}

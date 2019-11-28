@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\khaja.h\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Create Saving Account\\CreateSavingAccount_Post_Request_Verify_Response_with_Empty_Values\\20191128_101547\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\khaja.h\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Create Certificate Of Deposit Account\\Create Certificate Of Deposit Account Post Request Verify Response with Invalid Values\\20191128_104909\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Create Saving Account/CreateSavingAccount_Post_Request_Verify_Response_with_Empty_Values', new TestCaseBinding('Test Cases/Create Saving Account/CreateSavingAccount_Post_Request_Verify_Response_with_Empty_Values',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Create Certificate Of Deposit Account/Create Certificate Of Deposit Account Post Request Verify Response with Invalid Values', new TestCaseBinding('Test Cases/Create Certificate Of Deposit Account/Create Certificate Of Deposit Account Post Request Verify Response with Invalid Values',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -5,32 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>282b089a-bb2b-473a-a64a-59677fc91999</testCaseGuid>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
-      <description></description>
-      <id>a42c79c6-8728-4d9b-b9ad-999e7661f597</id>
-      <masked>false</masked>
-      <name>applicationCd</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
-      <description></description>
-      <id>bba54b7f-83e2-4761-90fd-1098629cdae0</id>
-      <masked>false</masked>
-      <name>statusCd</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
-      <description></description>
-      <id>638e009b-aa8b-4f30-8fcc-e24ddd8b01b1</id>
-      <masked>false</masked>
-      <name>statusmessage</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')</defaultValue>
-      <description></description>
-      <id>f0bd8a72-6e31-4dcd-a01d-c2906a0f527b</id>
-      <masked>false</masked>
-      <name>severity</name>
-   </variable>
 </TestCaseEntity>

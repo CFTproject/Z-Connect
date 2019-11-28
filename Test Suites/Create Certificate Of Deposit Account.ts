@@ -24,30 +24,6 @@
          </iterationEntity>
          <testDataId>Data Files/Z-Connect Test Data/Create Certificate Of Deposit Account_TestData</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>32dad2b6-5200-4959-a1e4-88a49a69ca60</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>applicationCd</value>
-         <variableId>a42c79c6-8728-4d9b-b9ad-999e7661f597</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>32dad2b6-5200-4959-a1e4-88a49a69ca60</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>statusCd</value>
-         <variableId>bba54b7f-83e2-4761-90fd-1098629cdae0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>32dad2b6-5200-4959-a1e4-88a49a69ca60</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>statusmessage</value>
-         <variableId>638e009b-aa8b-4f30-8fcc-e24ddd8b01b1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>32dad2b6-5200-4959-a1e4-88a49a69ca60</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>severity</value>
-         <variableId>f0bd8a72-6e31-4dcd-a01d-c2906a0f527b</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8c7bd0f5-6d22-466b-af7d-2dfcf397b1c3</guid>
@@ -69,29 +45,5 @@
          </iterationEntity>
          <testDataId>Data Files/Z-Connect Test Data/Create Certificate Of Deposit Account_TestData</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>63e621ef-31c0-4b46-82f3-b25eaf7c153c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>applicationCd</value>
-         <variableId>902151b4-503e-4785-a446-f95f07248428</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63e621ef-31c0-4b46-82f3-b25eaf7c153c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>statusCd</value>
-         <variableId>36c760de-2422-409f-aaa6-de31339b9a78</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63e621ef-31c0-4b46-82f3-b25eaf7c153c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>statusmessage</value>
-         <variableId>188cf97e-b9a1-4843-879e-e74cf2860517</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63e621ef-31c0-4b46-82f3-b25eaf7c153c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>severity</value>
-         <variableId>68efa978-8ec1-4c79-bae5-6456ae2da56a</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

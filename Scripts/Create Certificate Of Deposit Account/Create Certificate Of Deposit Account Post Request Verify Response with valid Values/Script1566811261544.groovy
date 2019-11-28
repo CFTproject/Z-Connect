@@ -13,19 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Create Certificate Of Deposit Account/Create Certificate Of Deposit Account Post Request Verify Response with valid Values'))
+String str = 'createCertificateOfDepositAccountServiceOperationResponse.RESPONSE.Output.xStatus.'
 
-WS.verifyResponseStatusCode(response, 200)
+testdatapath = findTestData('Z-Connect Test Data/Create Certificate Of Deposit Account_TestData')
 
-WS.verifyElementPropertyValue(response, 'createCertificateOfDepositAccountServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
-    applicationCd)
+for (int i = 1; i < 2; i++) {
+	println ('EXCEL SHEET ROW NUMBER IS :'+i)
+    response = WS.sendRequest(findTestObject('Create Certificate Of Deposit Account/Create Certificate Of Deposit Account Post Request Verify Response with valid Values'))
 
-WS.verifyElementPropertyValue(response, 'createCertificateOfDepositAccountServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', 
-    statusCd)
+    WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'createCertificateOfDepositAccountServiceOperationResponse.RESPONSE.Output.xStatus.statusmessage', 
-    statusmessage)
+    WS.verifyElementPropertyValue(response, str+'applicationCd', testdatapath.getValue(2, i))
 
-WS.verifyElementPropertyValue(response, 'createCertificateOfDepositAccountServiceOperationResponse.RESPONSE.Output.xStatus.severity', 
-    severity)
+    WS.verifyElementPropertyValue(response, str+'statusCd', testdatapath.getValue(3, i))
 
+    WS.verifyElementPropertyValue(response, str+'statusmessage', testdatapath.getValue(4, i))
+
+    WS.verifyElementPropertyValue(response, str+'severity', testdatapath.getValue(5, i))
+}
