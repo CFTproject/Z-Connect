@@ -18,7 +18,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://20.14.209.1:9443/Getcustomerlist/GetCustomerList/s?</restUrl>
+   <restUrl>https://20.14.209.1:9443/getCustomerList/getCustomerList/s?IndividualBusinessIndicator=B&amp;customerCompanyNbr=11</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

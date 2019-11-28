@@ -13,48 +13,56 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('GetCustomerList/GetCustomerList_Verify_Response_with_valid_Values'))
+String str = 'getCustomerListServiceOperationResponse.RESPONSE.Output.'
 
-WS.verifyResponseStatusCode(response, 200)
+testdatapath = findTestData('Z-Connect Test Data/GetCustomerList_TestData')
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.xStatus.applicationCd', applicationCd)
+for (int i = 1; i < 2; i++) {
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.xStatus.statusCd', statusCd)
+    response = WS.sendRequest(findTestObject('GetCustomerList/GetCustomerList_Verify_Response_with_valid_Values'))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.xStatus.statusMessage', statusMessage)
+    WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.xStatus.severity', severity)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.applicationCd', testdatapath.getValue(2, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.offset', offset)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusCd', testdatapath.getValue(3, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.limit', limit)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusMessage', testdatapath.getValue(4, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerCompanyNbr', customerCompanyNbr)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.severity', testdatapath.getValue(5, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerNameLine1', customerNameLine1)
+    WS.verifyElementPropertyValue(response, str + 'offset', testdatapath.getValue(6, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerKey', customerKey)
+    WS.verifyElementPropertyValue(response, str + 'limit', testdatapath.getValue(7, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].tieBreakerNbr', tieBreakerNbr)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerCompanyNbr', testdatapath.getValue(8, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerNbr', customerNbr)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerNameLine1', testdatapath.getValue(9, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].taxPayerNbr', taxPayerNbr)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerKey', testdatapath.getValue(10, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerAddressLine1', customerAddressLine1)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].tieBreakerNbr', testdatapath.getValue(11, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerAddressLine2', customerAddressLine2)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerNbr', testdatapath.getValue(12, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerAddressLine3', customerAddressLine3)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].taxPayerNbr', testdatapath.getValue(13, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerCity', customerCity)
+    //WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerAddressLine1', testdatapath.getValue(14, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerState', customerState)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerAddressLine2', testdatapath.getValue(15, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerPostalCode', customerPostalCode)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerAddressLine3', testdatapath.getValue(16, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].customerCountryCd', customerCountryCd)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerCity', testdatapath.getValue(17, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerlistOperationResponse.RESPONSE.Output.customerInfo[4].birthDt', birthDt)
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerState', testdatapath.getValue(18, i))
+
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerPostalCode', testdatapath.getValue(19, i))
+
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].customerCountryCd', testdatapath.getValue(20, i))
+
+    WS.verifyElementPropertyValue(response, str + 'customerInfo[4].birthDt', testdatapath.getValue(21, i))
+}
 
 
