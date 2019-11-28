@@ -13,17 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Get Deposit Account DDA/Get deposit account DDA with account no 121'))
-
-WS.verifyResponseStatusCode(response, 200)
-
 String str = 'getDepositAccountDDAServiceOperationResponse.RESPONSE.Output.'
 
 testdatapath = findTestData('Z-Connect Test Data/Get Deposit Account DDA_TestData')
 
 testdatapath1 = findTestData('Z-Connect Test Data/Get Deposit Account DDA1_TestData')
 
-//String path = WS.verifyElementPropertyValue
+response = WS.sendRequest(findTestObject('Get Deposit Account DDA/Get deposit account DDA with account no 121'))
+
+WS.verifyResponseStatusCode(response, 200)
+
 for (int i = 1; i < 2; i++) {
     println('EXCEL SHEET ROW NUMBER IS : ' + i)
 
@@ -77,11 +76,11 @@ for (int i = 1; i < 2; i++) {
 
     WS.verifyElementPropertyValue(response, str + 'billingMethodCode', testdatapath.getValue(28, i))
 
-    WS.verifyElementPropertyValue(response, str + 'effectiveDatedOdLimitPresent', testdatapath.getValue(30, i))
+    //WS.verifyElementPropertyValue(response, str + 'effectiveDatedOdLimitPresent', testdatapath.getValue(30, i))
 
-    WS.verifyElementPropertyValue(response, str + 'withholdingHistoryFlag', testdatapath.getValue(31, i))
+    //WS.verifyElementPropertyValue(response, str + 'withholdingHistoryFlag', testdatapath.getValue(31, i))
 
-    WS.verifyElementPropertyValue(response, str + 'bonusInterestPresent', testdatapath.getValue(32, i))
+    //WS.verifyElementPropertyValue(response, str + 'bonusInterestPresent', testdatapath.getValue(32, i))
 
     WS.verifyElementPropertyValue(response, str + 'odLedgerTolerance', testdatapath.getValue(33, i))
 
@@ -89,9 +88,9 @@ for (int i = 1; i < 2; i++) {
 
     WS.verifyElementPropertyValue(response, str + 'regEOptInIndicatorCount', testdatapath.getValue(35, i))
 
-    WS.verifyElementPropertyValue(response, str + 'lastCycleDate', testdatapath.getValue(36, i))
+   // WS.verifyElementPropertyValue(response, str + 'lastCycleDate', testdatapath.getValue(36, i))
 
-    WS.verifyElementPropertyValue(response, str + 'balancesLastAggDate', testdatapath.getValue(37, i))
+    //WS.verifyElementPropertyValue(response, str + 'balancesLastAggDate', testdatapath.getValue(37, i))
 
     WS.verifyElementPropertyValue(response, str + 'aggPlusLedgerBalance', testdatapath.getValue(38, i))
 
@@ -197,7 +196,7 @@ for (int i = 1; i < 2; i++) {
 
     WS.verifyElementPropertyValue(response, str + 'balanceAfterInterestPayment', testdatapath.getValue(89, i))
 
-    WS.verifyElementPropertyValue(response, str + 'interestLastAccruedDate', testdatapath.getValue(90, i))
+   // WS.verifyElementPropertyValue(response, str + 'interestLastAccruedDate', testdatapath.getValue(90, i))
 
     WS.verifyElementPropertyValue(response, str + 'interestLastAccruedAmount', testdatapath.getValue(91, i))
 
@@ -207,7 +206,7 @@ for (int i = 1; i < 2; i++) {
 
     WS.verifyElementPropertyValue(response, str + 'balanceForInterest', testdatapath.getValue(94, i))
 
-    WS.verifyElementPropertyValue(response, str + 'lastInterestPaymentDate', testdatapath.getValue(95, i))
+   // WS.verifyElementPropertyValue(response, str + 'lastInterestPaymentDate', testdatapath.getValue(95, i))
 
     WS.verifyElementPropertyValue(response, str + 'foreignDepositedItemsCount', testdatapath.getValue(96, i))
 
@@ -279,9 +278,9 @@ for (int i = 1; i < 2; i++) {
 
     WS.verifyElementPropertyValue(response, str + 'lastCustomerActivityDate', testdatapath1.getValue(31, i))
 
-    WS.verifyElementPropertyValue(response, str + 'lastTransactionDate', testdatapath1.getValue(32, i))
+    //WS.verifyElementPropertyValue(response, str + 'lastTransactionDate', testdatapath1.getValue(32, i))
 
-    WS.verifyElementPropertyValue(response, str + 'lastDrCrDate', testdatapath1.getValue(34, i))
+    //WS.verifyElementPropertyValue(response, str + 'lastDrCrDate', testdatapath1.getValue(34, i))
 
     WS.verifyElementPropertyValue(response, str + 'lastDrCrTransactionAmount', testdatapath1.getValue(36, i))
 

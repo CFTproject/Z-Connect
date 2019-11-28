@@ -6,7 +6,6 @@
    <elementGuidId>456dd668-9b97-4621-980f-afe5d5d3928b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
@@ -17,9 +16,16 @@
       <type>Main</type>
       <value>Basic RnJlZDpmcmVkcHdk</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>System</name>
+      <type>Main</type>
+      <value>zosapifnon</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://20.14.209.1:9443/getDepositAccountDDA/getDepositAccountDDA/1</restUrl>
+   <restUrl>https://20.14.209.1:9443/getDepositAccountDDA/getDepositAccountDDA/1?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
