@@ -13,40 +13,51 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('GetCustomerProfile/GetCustomerProfile_Verify_Response__with_Invalid_Values'))
-
-WS.verifyResponseStatusCode(response, 200)
-
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.xStatus.applicationCd', applicationCd)
-
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.xStatus.statusCd', statusCd)
-
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.xStatus.statusMessage', statusMessage)
-
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.xStatus.severity', severity)
 
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.customerCompanyNbr', customerCompanyNbr)
+String str = 'getCustomerProfileServiceOperationResponse.RESPONSE.Output.'
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.customerNbr', customerNbr)
+testdatapath = findTestData('Z-Connect Test Data/GetCustomerProfile_TestData')
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.householdNbr', householdNbr)
+for (int i = 3; i < 4; i++) {
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.customerCostCenterNbr', customerCostCenterNbr)
+    response = WS.sendRequest(findTestObject('GetCustomerProfile/GetCustomerProfile_Verify_Response__with_Invalid_Values'))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.customerBranchNbr', customerBranchNbr)
+    WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.accountInformation[0].companyNbr', companyNbr)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.applicationCd', testdatapath.getValue(2, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.accountInformation[0].currentBalanceAmt', currentBalanceAmt)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusCd', testdatapath.getValue(3, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.accountInformation[0].ownershipPercent', ownershipPercent)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusMessage', testdatapath.getValue(4, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.aliasInfo[0].aliasCompanyNbr', aliasCompanyNbr)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.severity', testdatapath.getValue(5, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.aliasInfo[0].aliasTie', aliasTie)
+    WS.verifyElementPropertyValue(response, str + 'customerCompanyNbr', testdatapath.getValue(6, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.csCrRptScor', csCrRptScor)
+    WS.verifyElementPropertyValue(response, str + 'customerNbr', testdatapath.getValue(7, i))
 
-WS.verifyElementPropertyValue(response, 'CustomerprofileOperationResponse.RESPONSE.Output.csWoCrRptScr', csWoCrRptScr)
+    WS.verifyElementPropertyValue(response, str + 'householdNbr', testdatapath.getValue(8, i))
+
+    WS.verifyElementPropertyValue(response, str + 'customerCostCenterNbr', testdatapath.getValue(9, i))
+
+    WS.verifyElementPropertyValue(response, str + 'customerBranchNbr', testdatapath.getValue(10, i))
+
+    WS.verifyElementPropertyValue(response, str + 'accountInformation[0].companyNbr', testdatapath.getValue(11, i))
+
+    WS.verifyElementPropertyValue(response, str + 'accountInformation[0].currentBalanceAmt', testdatapath.getValue(12, i))
+
+    WS.verifyElementPropertyValue(response, str + 'accountInformation[0].ownershipPercent', testdatapath.getValue(13, i))
+
+    WS.verifyElementPropertyValue(response, str + 'aliasInfo[0].aliasCompanyNbr', testdatapath.getValue(14, i))
+
+    WS.verifyElementPropertyValue(response, str + 'aliasInfo[0].aliasTie', testdatapath.getValue(15, i))
+
+    WS.verifyElementPropertyValue(response, str + 'csCrRptScor', testdatapath.getValue(16, i))
+
+    WS.verifyElementPropertyValue(response, str + 'csWoCrRptScr', testdatapath.getValue(17, i))
+}
+
+
 
