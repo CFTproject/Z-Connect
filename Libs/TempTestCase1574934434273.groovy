@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\khaja.h\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Get Deposit Account DDA\\Get deposit account DDA with account no 1\\20191128_144707\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\khaja.h\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Get Deposit Account TDA\\Get Account details for Invalid account number\\20191128_151714\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Get Deposit Account DDA/Get deposit account DDA with account no 1', new TestCaseBinding('Test Cases/Get Deposit Account DDA/Get deposit account DDA with account no 1',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Get Deposit Account TDA/Get Account details for Invalid account number', new TestCaseBinding('Test Cases/Get Deposit Account TDA/Get Account details for Invalid account number',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

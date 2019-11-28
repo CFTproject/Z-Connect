@@ -6,7 +6,6 @@
    <elementGuidId>970f0d2b-13ac-43b7-80c0-9c7295ee4b50</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
@@ -16,6 +15,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Basic RnJlZDpmcmVkcHdk</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>System</name>
+      <type>Main</type>
+      <value>zosapifnon</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
