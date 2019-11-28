@@ -13,16 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Create Retirement Account/Create Retirement Account Post Request Verify Response with Invalid Values'))
+String str = 'createRetirementAccountServiceOperationResponse.RESPONSE.Output.xStatus.'
 
-WS.verifyResponseStatusCode(response, 400)
+testdatapath = findTestData('Z-Connect Test Data/Create Retirement Account_TestData')
 
-for(int i=3; i<4; i++){
-	
-	
-println ('EXCEL SHEET ROW NUMBER IS : '+i)
+for (int i = 3; i < 4; i++) {
+    println('EXCEL SHEET ROW NUMBER IS : ' + i)
 
-WS.verifyElementPropertyValue(response, 'errorMessage', findTestData('Z-Connect Test Data/Create Retirement Account_TestData').getValue(6, i))
+    response = WS.sendRequest(findTestObject('Create Retirement Account/Create Retirement Account Post Request Verify Response with Invalid Values'))
 
+    WS.verifyResponseStatusCode(response, 400)
 
+    WS.verifyElementPropertyValue(response, 'errorMessage', testdatapath.getValue(6, i))
 }

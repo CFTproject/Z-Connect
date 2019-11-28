@@ -13,21 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Create Retirement Account/Create Retirement Account Post Request Verify Response with valid Values'))
+String str = 'createRetirementAccountServiceOperationResponse.RESPONSE.Output.xStatus.'
 
-WS.verifyResponseStatusCode(response, 200)
+testdatapath = findTestData('Z-Connect Test Data/Create Retirement Account_TestData')
 
-for(int i=1; i<2; i++){
-	
-	
-println ('EXCEL SHEET ROW NUMBER IS : '+i)
+for (int i = 1; i < 2; i++) {
+    println('EXCEL SHEET ROW NUMBER IS : ' + i)
 
-WS.verifyElementPropertyValue(response, 'createRetirementAccountServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', findTestData('Z-Connect Test Data/Create Retirement Account_TestData').getValue(2, i))
+    response = WS.sendRequest(findTestObject('Create Retirement Account/Create Retirement Account Post Request Verify Response with valid Values'))
 
-WS.verifyElementPropertyValue(response, 'createRetirementAccountServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', findTestData('Z-Connect Test Data/Create Retirement Account_TestData').getValue(3, i))
+    WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'createRetirementAccountServiceOperationResponse.RESPONSE.Output.xStatus.statusmessage', findTestData('Z-Connect Test Data/Create Retirement Account_TestData').getValue(4, i))
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(2, i))
 
-WS.verifyElementPropertyValue(response, 'createRetirementAccountServiceOperationResponse.RESPONSE.Output.xStatus.severity', findTestData('Z-Connect Test Data/Create Retirement Account_TestData').getValue(5, i))
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(3, i))
 
+    WS.verifyElementPropertyValue(response, str + 'statusmessage', testdatapath.getValue(4, i))
+
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(5, i))
 }
