@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/GetCustomerList')
+suiteProperties.put('id', 'Test Suites/Create Address')
 
-suiteProperties.put('name', 'GetCustomerList')
+suiteProperties.put('name', 'Create Address')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\GetCustomerList\\20191128_131759\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Create Address\\20191128_133908\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/GetCustomerList', suiteProperties, [new TestCaseBinding('Test Cases/GetCustomerList/GetCustomerList_Verify_Response_with_valid_Values', 'Test Cases/GetCustomerList/GetCustomerList_Verify_Response_with_valid_Values',  null), new TestCaseBinding('Test Cases/GetCustomerList/GetCustomerList_Verify_Response_with_Empty_Values', 'Test Cases/GetCustomerList/GetCustomerList_Verify_Response_with_Empty_Values',  null), new TestCaseBinding('Test Cases/GetCustomerList/GetCustomerList_Verify_Response__with_Invalid_Values', 'Test Cases/GetCustomerList/GetCustomerList_Verify_Response__with_Invalid_Values',  null)])
+TestCaseMain.startTestSuite('Test Suites/Create Address', suiteProperties, [new TestCaseBinding('Test Cases/Create Address/Create Address Post Request Verify Response with valid Values', 'Test Cases/Create Address/Create Address Post Request Verify Response with valid Values',  null)])
