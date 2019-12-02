@@ -11,6 +11,6 @@
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Get Deposit Accout TDA</sheetName>
+   <sheetName>Change Deposit Account TDA</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

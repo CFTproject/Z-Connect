@@ -13,65 +13,50 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Get Address Relationships/Get address to retrieve accounts with offset and limit'))
+String str = 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.'
 
-WS.verifyResponseStatusCode(response, 200)
+testdatapath = findTestData('Z-Connect Test Data/Get Address Relationships_TestData')
 
 for (int i = 7; i < 8; i++) {
-	
-	println ('EXCEL SHEET ROW NUMBER IS :'+i)
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(2, i))
+    response = WS.sendRequest(findTestObject('Get Address Relationships/Get address to retrieve accounts with offset and limit'))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(3, i))
+    WS.verifyResponseStatusCode(response, 200)
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.xStatus.statusmessage', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(4, i))
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.xStatus.severity', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(5, i))
+    WS.verifyElementPropertyValue(response, str + 'xStatus.applicationCd', testdatapath.getValue(2, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.companyNbr', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(6, i))
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusCd', testdatapath.getValue(3, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressLine1', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(7, i))
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusmessage', testdatapath.getValue(4, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressLine2', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(8, i))
+    WS.verifyElementPropertyValue(response, str + 'xStatus.severity', testdatapath.getValue(5, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressLine3', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(9, i))
+    WS.verifyElementPropertyValue(response, str + 'companyNbr', testdatapath.getValue(6, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.city', findTestData(
-            'Z-Connect Test Data/Get Address Relationships_TestData').getValue(10, i))
+    WS.verifyElementPropertyValue(response, str + 'addressLine1', testdatapath.getValue(7, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.state', findTestData(
-            'Z-Connect Test Data/Get Address Relationships_TestData').getValue(11, i))
+    WS.verifyElementPropertyValue(response, str + 'addressLine2', testdatapath.getValue(8, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.postalCd', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(12, i))
+    WS.verifyElementPropertyValue(response, str + 'addressLine3', testdatapath.getValue(9, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.country', findTestData(
-            'Z-Connect Test Data/Get Address Relationships_TestData').getValue(13, i))
+    WS.verifyElementPropertyValue(response, str + 'city', testdatapath.getValue(10, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressTie', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(14, i))
+    WS.verifyElementPropertyValue(response, str + 'state', testdatapath.getValue(11, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.householdNumber', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(15, i))
+    WS.verifyElementPropertyValue(response, str + 'postalCd', testdatapath.getValue(12, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.offsetCustomer', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(16, i))
+    WS.verifyElementPropertyValue(response, str + 'country', testdatapath.getValue(13, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.limitCustomer', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(17, i))
+    WS.verifyElementPropertyValue(response, str + 'addressTie', testdatapath.getValue(14, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressCustomerInfo[0].companyNbr', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(18, i))
+    WS.verifyElementPropertyValue(response, str + 'householdNumber', testdatapath.getValue(15, i))
 
-    WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressCustomerInfo[0].customerNameLine1', 
+    WS.verifyElementPropertyValue(response, str + 'offsetCustomer', testdatapath.getValue(16, i))
+
+    WS.verifyElementPropertyValue(response, str + 'limitCustomer', testdatapath.getValue(17, i))
+
+    WS.verifyElementPropertyValue(response, str + 'addressCustomerInfo[0].companyNbr', testdatapath.getValue(18, i /* WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressCustomerInfo[0].customerNameLine1', 
         findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(19, i))
 
     WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressCustomerInfo[0].addressUseCd', 
@@ -87,6 +72,5 @@ for (int i = 7; i < 8; i++) {
         findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(23, i))
 
     WS.verifyElementPropertyValue(response, 'getAddressRelationshipsServiceOperationResponse.RESPONSE.Output.addressCustomerInfo[0].addressTempIndicator', 
-        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(24, i))
+        findTestData('Z-Connect Test Data/Get Address Relationships_TestData').getValue(24, i))*/ ))
 }
-

@@ -27,6 +27,13 @@
       <type>Main</type>
       <value>Basic RnJlZDpmcmVkcHdk</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>System</name>
+      <type>Main</type>
+      <value>zosapiconn</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
    <restUrl>https://20.14.209.1:9443/changeDepositAccountDDA/changeDepositAccountDDA?</restUrl>
