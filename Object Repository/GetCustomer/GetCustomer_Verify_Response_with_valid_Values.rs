@@ -3,7 +3,7 @@
    <description></description>
    <name>GetCustomer_Verify_Response_with_valid_Values</name>
    <tag></tag>
-   <elementGuidId>c1ad7f73-327d-44ac-80fa-2602cc2a0f78</elementGuidId>
+   <elementGuidId>e11e9e59-a637-46f4-99da-aca2f3527bcb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -18,7 +18,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://20.14.209.1:9443/getcustomerapi/GetCustomer/sandhyacha?tie=1&amp;taxIdInd=N&amp;individualBusinessInd=I&amp;companyNbr=11&amp;contactOffset=0&amp;contactLimit=5&amp;relcusOffset=0&amp;relcusLimit=5&amp;relacctOffset=0&amp;relacctLimit=5</restUrl>
+   <restUrl>https://20.14.209.1:9443/getCustomer/getCustomer/sandhyacha?tie=1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

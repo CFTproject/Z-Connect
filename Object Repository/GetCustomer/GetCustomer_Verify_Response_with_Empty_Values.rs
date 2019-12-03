@@ -18,7 +18,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://20.14.209.1:9443/getcustomerapi/GetCustomer/name%3Dsandhyacha%26tie%3D1?</restUrl>
+   <restUrl>https://20.14.209.1:9443/getCustomer/getCustomer/sandhyacha?tie=1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

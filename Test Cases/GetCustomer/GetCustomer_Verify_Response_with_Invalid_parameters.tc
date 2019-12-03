@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>GetCustomer_Verify_Response_with_Invalid_parameters</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>0d5447aa-7ac0-4f94-816b-f38c4382e89b</testCaseGuid>
-</TestCaseEntity>

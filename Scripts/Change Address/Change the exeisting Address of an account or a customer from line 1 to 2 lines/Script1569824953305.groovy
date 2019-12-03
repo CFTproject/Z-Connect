@@ -13,37 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Change Address_TestData')
+
 for (int i = 9; i < 10; i++) {
     println('EXCEL SHEET ROW NUMBER IS : ' + i)
 
-    println('APPLICATION CODE : ' + findTestData('Z-Connect Test Data/Change Address_TestData').getValue(15, i))
-
-    println('STATUS CODE : ' + findTestData('Z-Connect Test Data/Change Address_TestData').getValue(16, i))
-
-    println('STATUS MESSAGE : ' + findTestData('Z-Connect Test Data/Change Address_TestData').getValue(17, i))
-
-    println('SEVERITY : ' + findTestData('Z-Connect Test Data/Change Address_TestData').getValue(18, i))
-
     response = WS.sendRequest(findTestObject('Change Address/Change the exeisting Address of an account or a customer from line 1 to 2 lines', 
-            [('actionCode') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(2, i), ('presentAddressLine1') : findTestData(
-                    'Z-Connect Test Data/Change Address_TestData').getValue(3, i), ('presentAddressTie') : findTestData(
-                    'Z-Connect Test Data/Change Address_TestData').getValue(5, i), ('presentPostalCd') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(
-                    6, i), ('chgAddressLine1') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(7, 
-                    i), ('chgAddressLine2') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(8, i)
-                , ('userAcknowledge') : findTestData('Z-Connect Test Data/Change Address_TestData').getValue(13, i)]))
+            [('actionCode') : testdatapath.getValue(2, i), ('presentAddressLine1') : testdatapath.getValue(3, i), ('presentAddressTie') : testdatapath.getValue(
+                    5, i), ('presentPostalCd') : testdatapath.getValue(6, i), ('chgAddressLine1') : testdatapath.getValue(
+                    7, i), ('chgAddressLine2') : testdatapath.getValue(8, i), ('userAcknowledge') : testdatapath.getValue(
+                    13, i)]))
 
     WS.verifyResponseStatusCode(response, 200)
-	
 
-    WS.verifyElementPropertyValue(response, 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
-        findTestData('Z-Connect Test Data/Change Address_TestData').getValue(15, i))
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(15, i))
 
-    WS.verifyElementPropertyValue(response, 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', findTestData(
-            'Z-Connect Test Data/Change Address_TestData').getValue(16, i))
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(16, i))
 
-    WS.verifyElementPropertyValue(response, 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage', 
-        findTestData('Z-Connect Test Data/Change Address_TestData').getValue(17, i))
+    WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(17, i))
 
-    WS.verifyElementPropertyValue(response, 'changeAddressServiceOperationResponse.RESPONSE.Output.xStatus.severity', findTestData(
-            'Z-Connect Test Data/Change Address_TestData').getValue(18, i))
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(18, i))
 }

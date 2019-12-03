@@ -13,19 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction TDA Post Request Verify Response with Empty Values'))
 
-WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'postDepositAccountTransactionServiceOperationResponse.RESPONSE.Output.XSTATUS.applicationCd', 
-    applicationCd)
+String str = 'postDepositAccountTransactionServiceOperationResponse.RESPONSE.Output.XSTATUS.'
 
-WS.verifyElementPropertyValue(response, 'postDepositAccountTransactionServiceOperationResponse.RESPONSE.Output.XSTATUS.statusCd', 
-    statusCd)
+testdatapath = findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')
 
-WS.verifyElementPropertyValue(response, 'postDepositAccountTransactionServiceOperationResponse.RESPONSE.Output.XSTATUS.statusMessage', 
-    statusMessage)
+for (int i = 5; i < 6; i++) {
+    println('EXCEL SHEET ROW NUNBER IS :' + i)
 
-WS.verifyElementPropertyValue(response, 'postDepositAccountTransactionServiceOperationResponse.RESPONSE.Output.XSTATUS.severity', 
-    severity)
+    response = WS.sendRequest(findTestObject('Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction TDA Post Request Verify Response with Empty Values'))
+
+    WS.verifyResponseStatusCode(response, 200)
+
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(2, i))
+
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(3, i))
+
+    WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(4, i))
+
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(5, i))
+}
 

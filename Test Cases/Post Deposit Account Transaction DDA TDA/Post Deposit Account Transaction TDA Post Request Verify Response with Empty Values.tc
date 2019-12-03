@@ -5,32 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>00aeaca6-8f0b-4820-a468-b97326fdec4c</testCaseGuid>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
-      <description></description>
-      <id>7a469601-0e9f-4f9e-9086-288e4ef582fd</id>
-      <masked>false</masked>
-      <name>applicationCd</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
-      <description></description>
-      <id>20c19187-94fc-4dbe-8c6f-64798000fa01</id>
-      <masked>false</masked>
-      <name>statusCd</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
-      <description></description>
-      <id>363d3ad0-3283-4ecd-a64d-aae17af1b058</id>
-      <masked>false</masked>
-      <name>statusMessage</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')</defaultValue>
-      <description></description>
-      <id>7eded16a-242b-45c0-8127-fb9d8bb5971d</id>
-      <masked>false</masked>
-      <name>severity</name>
-   </variable>
 </TestCaseEntity>

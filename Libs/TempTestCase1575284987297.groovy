@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\khaja.h\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Change Deposit Account TDA\\Patch Request Verify Response with valid Values\\20191202_143745\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\khaja.h\\AppData\\Local\\Temp\\Katalon\\Test Cases\\GetCustomer\\GetCustomer_Verify_Response_with_valid_Values\\20191202_163947\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Change Deposit Account TDA/Patch Request Verify Response with valid Values', new TestCaseBinding('Test Cases/Change Deposit Account TDA/Patch Request Verify Response with valid Values',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/GetCustomer/GetCustomer_Verify_Response_with_valid_Values', new TestCaseBinding('Test Cases/GetCustomer/GetCustomer_Verify_Response_with_valid_Values',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

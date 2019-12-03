@@ -13,11 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction DDA Post Request Verify Response with Invalid Values'))
+testdatapath = findTestData('Z-Connect Test Data/Post Deposit Account Transaction DDA TDA_TestData')
 
-WS.verifyResponseStatusCode(response, 400)
+for (int i = 3; i < 4; i++) {
+	println ('EXCEL SHEET ROW NUMBER IS :'+i)
+    response = WS.sendRequest(findTestObject('Post Deposit Account Transaction DDA TDA/Post Deposit Account Transaction DDA Post Request Verify Response with Invalid Values'))
 
-WS.verifyElementPropertyValue(response, 'errorMessage', 'BAQR0429W: API postDepositAccountTransaction encountered an error while processing a request under URL https://20.14.209.1:9443/postDepositAccountTransaction/postDepositAccountTransaction.')
+    WS.verifyResponseStatusCode(response, 400)
 
-WS.verifyElementPropertyValue(response, 'errorDetails', 'com.ibm.zosconnect.wv.transaction.messages.walkers.MessageWalkerException: GMOMW0005E: A data type conversion error occurred while the leaf field Input.companyNbr of service interface null was converted: Value out of range. Value:\"113456\" Radix:10.')
+    WS.verifyElementPropertyValue(response, 'errorMessage', testdatapath.getValue(6, i))
 
+    WS.verifyElementPropertyValue(response, 'errorDetails', testdatapath.getValue(7, i))
+}

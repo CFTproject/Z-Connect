@@ -13,38 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'changeCustomerServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Change Customer_TestData')
+
 for (int i = 5; i < 6; i++) {
     println('ROW NUMBER IS : ' + i)
 
-    println('APPLICATION CODE : ' + findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(15, i))
-
-    println('STATUS CODE : ' + findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(16, i))
-
-    println('STATUS MESSAGE : ' + findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(17, i))
-
-    println('SEVERITY : ' + findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(18, i))
-
     response = WS.sendRequest(findTestObject('Change Customer/Change Customer Bank relationship information for a idividual customer in CUBK screen', 
-            [('inputKey') : findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(2, i), ('customerTie') : findTestData(
-                    'Z-Connect Test Data/Change Customer_TestData').getValue(3, i), ('companyNbr') : findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(
-                    4, i), ('employeeInd') : findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(6, i)
-                , ('sensitivityCode') : findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(7, i), ('bankRelationshipActionCd') : findTestData(
-                    'Z-Connect Test Data/Change Customer_TestData').getValue(8, i), ('bankRelationshipCd') : findTestData(
-                    'Z-Connect Test Data/Change Customer_TestData').getValue(9, i)]))
+            [('inputKey') : testdatapath.getValue(2, i), ('customerTie') : testdatapath.getValue(3, i), ('companyNbr') : testdatapath.getValue(
+                    4, i), ('employeeInd') : testdatapath.getValue(6, i), ('sensitivityCode') : testdatapath.getValue(7, 
+                    i), ('bankRelationshipActionCd') : testdatapath.getValue(8, i), ('bankRelationshipCd') : testdatapath.getValue(
+                    9, i)]))
 
     WS.verifyResponseStatusCode(response, 200)
 
-    WS.verifyElementPropertyValue(response, 'changeCustomerServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
-        findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(15, i))
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(15, i))
 
-    WS.verifyElementPropertyValue(response, 'changeCustomerServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', findTestData(
-            'Z-Connect Test Data/Change Customer_TestData').getValue(16, i))
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(16, i))
 
-    WS.verifyElementPropertyValue(response, 'changeCustomerServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage', 
-        findTestData('Z-Connect Test Data/Change Customer_TestData').getValue(17, i))
+    WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(17, i))
 
-    WS.verifyElementPropertyValue(response, 'changeCustomerServiceOperationResponse.RESPONSE.Output.xStatus.severity', findTestData(
-            'Z-Connect Test Data/Change Customer_TestData').getValue(18, i))
-	
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(18, i))
 }
-

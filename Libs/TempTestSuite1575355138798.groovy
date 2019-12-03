@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/Change Deposit Account TDA')
+suiteProperties.put('id', 'Test Suites/Create Restraint Pledge To')
 
-suiteProperties.put('name', 'Change Deposit Account TDA')
+suiteProperties.put('name', 'Create Restraint Pledge To')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Change Deposit Account TDA\\20191202_143824\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Create Restraint Pledge To\\20191203_120858\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Change Deposit Account TDA', suiteProperties, [new TestCaseBinding('Test Cases/Change Deposit Account TDA/Patch Request Verify Response with valid Values', 'Test Cases/Change Deposit Account TDA/Patch Request Verify Response with valid Values',  null)])
+TestCaseMain.startTestSuite('Test Suites/Create Restraint Pledge To', suiteProperties, [new TestCaseBinding('Test Cases/Create Restraint Pledge To/Create Restraint Pledge To Post Request Verify Response with valid Values', 'Test Cases/Create Restraint Pledge To/Create Restraint Pledge To Post Request Verify Response with valid Values',  [ 'statusMessage' : 'Mandatory fields can\'t be blank' , 'statusCd' : '1005' , 'severity' : 'E' , 'applicationCd' : '841' ,  ])])

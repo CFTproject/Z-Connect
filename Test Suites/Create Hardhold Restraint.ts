@@ -102,17 +102,5 @@
          </iterationEntity>
          <testDataId>Data Files/Z-Connect Test Data/Create Hardhold Restraint_TestData</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>e2b6d84a-4846-47f0-a082-0859e95c13ca</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>errorMessage</value>
-         <variableId>34dd6672-9dfe-4aff-bca6-e6aad11ba25d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e2b6d84a-4846-47f0-a082-0859e95c13ca</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>errorDetails</value>
-         <variableId>e1bc713f-557e-4e82-8b2e-b05688621175</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

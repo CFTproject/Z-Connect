@@ -30,10 +30,10 @@ response = WS.sendRequest(findTestObject('Create Hardhold Restraint/Create Hardh
                 11, i), ('rHhReason2') : findTestData('Z-Connect Test Data/Create Hardhold Restraint_TestData').getValue(
                 12, i)]))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'errorMessage', errorMessage)
+/*WS.verifyElementPropertyValue(response, 'errorMessage', 'BAQR0429W: API createRestraintHardHold encountered an error while processing a request under URL https://20.14.209.1:9443/createRestraintHardHold/createRestraintHardHold.')
 
-WS.verifyElementPropertyValue(response, 'errorDetails', errorDetails)
-
+WS.verifyElementPropertyValue(response, 'errorDetails', 'com.ibm.zosconnect.wv.transaction.messages.walkers.MessageWalkerException: GMOMW0005E: A data type conversion error occurred while the leaf field Input.restraintHhKeyCompanyNbr of service interface null was converted: For input string: "567489874646457357".')
+*/
 }

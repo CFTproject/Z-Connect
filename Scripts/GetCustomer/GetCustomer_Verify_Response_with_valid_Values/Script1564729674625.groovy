@@ -13,57 +13,60 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('GetCustomer/GetCustomer_Verify_Response_with_valid_Values'))
+String str = 'getCustomerServiceOperationResponse.RESPONSE.Output.'
 
-WS.verifyResponseStatusCode(response, 200)
+testdatapath = findTestData('Z-Connect Test Data/GetCustomer_TestData')
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', applicationCd)
+for (int i = 1; i < 2; i++) {
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', statusCd)
+    response = WS.sendRequest(findTestObject('GetCustomer/GetCustomer_Verify_Response_with_valid_Values'))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage', statusMessage)
+    WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.xStatus.severity', severity)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.applicationCd', testdatapath.getValue(2, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.contactOffset', contactOffset)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusCd', testdatapath.getValue(3, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.contactLimit', contactLimit)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.statusMessage', testdatapath.getValue(4, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relcusOffset', relcusOffset)
+    WS.verifyElementPropertyValue(response, str + 'xStatus.severity', testdatapath.getValue(5, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relcusLimit', relcusLimit)
+    WS.verifyElementPropertyValue(response, str + 'contactOffset', testdatapath.getValue(6, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relacctOffset', relacctOffset)
+    WS.verifyElementPropertyValue(response, str + 'contactLimit', testdatapath.getValue(7, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relacctLimit', relacctLimit)
+    WS.verifyElementPropertyValue(response, str + 'relcusOffset', testdatapath.getValue(8, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.customerCompanyNbr', customerCompanyNbr)
+    WS.verifyElementPropertyValue(response, str + 'relcusLimit', testdatapath.getValue(9, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.customerTie', customerTie)
+    WS.verifyElementPropertyValue(response, str + 'relacctOffset', testdatapath.getValue(10, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.customerNbr', customerNbr)
+    WS.verifyElementPropertyValue(response, str + 'relacctLimit', testdatapath.getValue(11, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.customerCostCenterNbr', customerCostCenterNbr)
+    WS.verifyElementPropertyValue(response, str + 'customerCompanyNbr', testdatapath.getValue(12, i))
+	
+	WS.verifyElementPropertyValue(response, str + 'customerNameLine1', testdatapath.getValue(13, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.customerBranchNbr', customerBranchNbr)
+    WS.verifyElementPropertyValue(response, str + 'customerTie', testdatapath.getValue(14, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.sensitivityCode', sensitivityCode)
+    WS.verifyElementPropertyValue(response, str + 'customerNbr', testdatapath.getValue(15, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.commercialContactInfo[0].contactSeq', 
-    contactSeq)
+    WS.verifyElementPropertyValue(response, str + 'customerCostCenterNbr', testdatapath.getValue(21, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relatedCustomerInfo[0].companyNbr', 
-    relatedCustomerInfo_companyNbr)
+    WS.verifyElementPropertyValue(response, str + 'customerBranchNbr', testdatapath.getValue(22, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relatedCustomerInfo[0].tie', 
-    relatedCustomerInfo_tie)
+    WS.verifyElementPropertyValue(response, str + 'sensitivityCode', testdatapath.getValue(23, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relatedCustomerInfo[0].ownershipPercent', 
-    relatedCustomerInfo_ownershipPercent)
+    WS.verifyElementPropertyValue(response, str + 'commercialContactInfo[0].contactSeq', testdatapath.getValue(28, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relatedAccountInfo[0].companyNbr', 
-    relatedAccountInfo_companyNbr)
+    WS.verifyElementPropertyValue(response, str + 'relatedCustomerInfo[0].companyNbr', testdatapath.getValue(30, i))
 
-WS.verifyElementPropertyValue(response, 'GetCustomerServiceOperationResponse.RESPONSE.Output.relatedAccountInfo[0].ownershipPercent', 
-    relatedAccountInfo_ownershipPercent)
+    WS.verifyElementPropertyValue(response, str + 'relatedCustomerInfo[0].tie', testdatapath.getValue(31, i))
 
+    WS.verifyElementPropertyValue(response, str + 'relatedCustomerInfo[0].ownershipPercent', testdatapath.getValue(38, i))
+
+    WS.verifyElementPropertyValue(response, str + 'relatedAccountInfo[0].companyNbr', testdatapath.getValue(34, i))
+
+    WS.verifyElementPropertyValue(response, str + 'relatedAccountInfo[0].ownershipPercent', testdatapath.getValue(38, i))
+}
