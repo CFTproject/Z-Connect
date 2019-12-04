@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'changeRestraintHardHoldServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Change Restraint Hard Hold_TestData')
+
 for (int i = 1; i < 11; i++) {
     println('EXCEL SHEET ROW NUMBER IS : ' + i)
 
@@ -196,20 +200,14 @@ for (int i = 1; i < 11; i++) {
     }
     
     if (i != 8) {
-        WS.verifyElementPropertyValue(response, 'changeRestraintHardHoldServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', 
-            findTestData('Z-Connect Test Data/Change Restraint Hard Hold_TestData').getValue(16, i))
+        WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(16, i))
 
-        WS.verifyElementPropertyValue(response, 'changeRestraintHardHoldServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', 
-            findTestData('Z-Connect Test Data/Change Restraint Hard Hold_TestData').getValue(17, i))
+        WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(17, i))
 
-        WS.verifyElementPropertyValue(response, 'changeRestraintHardHoldServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage', 
-            findTestData('Z-Connect Test Data/Change Restraint Hard Hold_TestData').getValue(18, i))
+        WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(18, i))
 
-        WS.verifyElementPropertyValue(response, 'changeRestraintHardHoldServiceOperationResponse.RESPONSE.Output.xStatus.severity', 
-            findTestData('Z-Connect Test Data/Change Restraint Hard Hold_TestData').getValue(19, i))
-    } else
- {
-        WS.verifyElementPropertyValue(response, 'errorMessage', findTestData('Z-Connect Test Data/Change Restraint Hard Hold_TestData').getValue(
-                20, i))
+        WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(19, i))
+    } else {
+        WS.verifyElementPropertyValue(response, 'errorMessage', testdatapath.getValue(20, i))
     }
 }

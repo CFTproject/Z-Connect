@@ -13,41 +13,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'createRestraintDuplicateCheckServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData')
+
 for (int i = 1; i <= 2; i++) {
-	
     println('Row number is :- ' + i)
 
     response = WS.sendRequest(findTestObject('Create Restraint Duplicate Check/Create Restraint Duplicate Check Post Request Verify Response with valid Values', 
-            [('rDupKeyCompanyNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    2, i), ('rDupKeyProductCode') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    3, i), ('rDupKeyAccountNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    4, i), ('rDupVarKeyLowCheckNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    5, i), ('rDupVarKeyHighCheckNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    6, i), ('rDupVarKeyExpireDt') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    7, i), ('rDupStatus') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    8, i), ('rDupDuplicateCd') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    9, i), ('rDupCheckDate') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    10, i), ('rDupOutstandingNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    11, i), ('rDupChecksPaidNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    12, i), ('rDupComment1') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    13, i), ('rDupComment2') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    14, i), ('rDupReason1') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    15, i), ('rDupReason2') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    16, i), ('rDupChkTermCd') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    17, i), ('rDupTerm') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    18, i), ('rDupRenewNbr') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    19, i), ('rDupChannel') : findTestData('Z-Connect Test Data/Create Restraint Duplicate Check_TestData').getValue(
-                    20, i)]))
+            [('rDupKeyCompanyNbr') : testdatapath.getValue(2, i), ('rDupKeyProductCode') : testdatapath.getValue(3, i), ('rDupKeyAccountNbr') : testdatapath.getValue(
+                    4, i), ('rDupVarKeyLowCheckNbr') : testdatapath.getValue(5, i), ('rDupVarKeyHighCheckNbr') : testdatapath.getValue(
+                    6, i), ('rDupVarKeyExpireDt') : testdatapath.getValue(7, i), ('rDupStatus') : testdatapath.getValue(
+                    8, i), ('rDupDuplicateCd') : testdatapath.getValue(9, i), ('rDupCheckDate') : testdatapath.getValue(
+                    10, i), ('rDupOutstandingNbr') : testdatapath.getValue(11, i), ('rDupChecksPaidNbr') : testdatapath.getValue(
+                    12, i), ('rDupComment1') : testdatapath.getValue(13, i), ('rDupComment2') : testdatapath.getValue(14, 
+                    i), ('rDupReason1') : testdatapath.getValue(15, i), ('rDupReason2') : testdatapath.getValue(16, i), ('rDupChkTermCd') : testdatapath.getValue(
+                    17, i), ('rDupTerm') : testdatapath.getValue(18, i), ('rDupRenewNbr') : testdatapath.getValue(19, i)
+                , ('rDupChannel') : testdatapath.getValue(20, i)]))
 
     WS.verifyResponseStatusCode(response, 200)
-	
-   WS.verifyElementPropertyValue(response, 'createRestraintDuplicateCheckServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd', applicationCd)
-   
-  WS.verifyElementPropertyValue(response, 'createRestraintDuplicateCheckServiceOperationResponse.RESPONSE.Output.xStatus.statusCd', statusCd)
-   
-  WS.verifyElementPropertyValue(response, 'createRestraintDuplicateCheckServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage', statusMessage)
-   
-  WS.verifyElementPropertyValue(response, 'createRestraintDuplicateCheckServiceOperationResponse.RESPONSE.Output.xStatus.severity', severity)
+
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(22, i))
+
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(23, i))
+
+    WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(24, i))
+
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(25, i))
 }
-
-

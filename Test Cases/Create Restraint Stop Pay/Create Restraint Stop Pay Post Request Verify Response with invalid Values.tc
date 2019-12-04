@@ -5,18 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2e971d6f-454d-4881-bc1c-1e8e8a8b0e31</testCaseGuid>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Stop Pay')</defaultValue>
-      <description></description>
-      <id>584198d1-6465-44ac-905c-a52d97cedbbe</id>
-      <masked>false</masked>
-      <name>errorMessage</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Z-Connect Test Data/Create Restraint Stop Pay')</defaultValue>
-      <description></description>
-      <id>c58a2f88-0e03-49fc-b520-767b1a9e5372</id>
-      <masked>false</masked>
-      <name>errorDetails</name>
-   </variable>
 </TestCaseEntity>

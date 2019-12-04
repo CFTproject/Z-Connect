@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+String str = 'createRestraintStopPayServiceOperationResponse.RESPONSE.Output.xStatus.'
+
+testdatapath = findTestData('Z-Connect Test Data/Create Restraint Stop Pay')
+
 for (int i = 6; i <7; i++) {
 	
     println('Row nuber si :-' + i)
@@ -45,18 +49,14 @@ for (int i = 6; i <7; i++) {
                     25, i)]))
 
     WS.verifyResponseStatusCode(response, 200)
-	
-	WS.verifyElementPropertyValue(response, 'createRestraintStopPayServiceOperationResponse.RESPONSE.Output.xStatus.applicationCd',
-		applicationCd)
 
-	WS.verifyElementPropertyValue(response, 'createRestraintStopPayServiceOperationResponse.RESPONSE.Output.xStatus.statusCd',
-		statusCd)
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(27, i))
 
-	WS.verifyElementPropertyValue(response, 'createRestraintStopPayServiceOperationResponse.RESPONSE.Output.xStatus.statusMessage',
-		statusMessage)
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(28, i))
 
-	WS.verifyElementPropertyValue(response, 'createRestraintStopPayServiceOperationResponse.RESPONSE.Output.xStatus.severity',
-		severity)
+    WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(29, i))
+
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(30, i))
 	
 }
 
