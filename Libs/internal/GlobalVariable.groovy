@@ -13,10 +13,15 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object GetpayoffTDAURLS
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['GetpayoffTDAURLS' : 'GetpayoffTDAURLS'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         def selectedVariables = allVariables[profileName]
@@ -28,6 +33,7 @@ public class GlobalVariable {
 			}
 		}
 
+        GetpayoffTDAURLS = selectedVariables["GetpayoffTDAURLS"]
         
     }
 }

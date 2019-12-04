@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/Change Restraint Merchant Auth')
+suiteProperties.put('id', 'Test Suites/Get pay off TDA')
 
-suiteProperties.put('name', 'Change Restraint Merchant Auth')
+suiteProperties.put('name', 'Get pay off TDA')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Change Restraint Merchant Auth\\20191204_114021\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\khaja.h\\Katalon Studio\\Z-Connect\\Reports\\Get pay off TDA\\20191204_144337\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Change Restraint Merchant Auth', suiteProperties, [new TestCaseBinding('Test Cases/Change Restraint Merchant Auth/Change Restraint Merchant Auth for product code and account and other fields are blank', 'Test Cases/Change Restraint Merchant Auth/Change Restraint Merchant Auth for product code and account and other fields are blank',  null), new TestCaseBinding('Test Cases/Change Restraint Merchant Auth/Change Restraint Merchant Auth for invalid expire date non existing records with all valid non blank fields', 'Test Cases/Change Restraint Merchant Auth/Change Restraint Merchant Auth for invalid expire date non existing records with all valid non blank fields',  null)])
+TestCaseMain.startTestSuite('Test Suites/Get pay off TDA', suiteProperties, [new TestCaseBinding('Test Cases/Get pay off TDA/Get pay off TDA Verify Response with valid Values', 'Test Cases/Get pay off TDA/Get pay off TDA Verify Response with valid Values',  null), new TestCaseBinding('Test Cases/Get pay off TDA/Get pay off TDA Verify Response with empty Values', 'Test Cases/Get pay off TDA/Get pay off TDA Verify Response with empty Values',  null), new TestCaseBinding('Test Cases/Get pay off TDA/Get pay off TDA Verify Response with invalid Values', 'Test Cases/Get pay off TDA/Get pay off TDA Verify Response with invalid Values',  null)])

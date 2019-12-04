@@ -13,14 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Create Branch/Create Branch Post Request Verify Response with valid Values'))
+String str = 'createBranchServiceOperationResponse.RESPONSE.Output.XSTATUS.'
 
-WS.verifyResponseStatusCode(response, 200)
+testdatapath = findTestData('Z-Connect Test Data/Create Branch_TestData')
 
-WS.verifyElementPropertyValue(response, 'createBranchServiceOperationResponse.RESPONSE.Output.XSTATUS.applicationCd', applicationCd)
+for (int i = 1; i < 2; i++) {
+	println ('EXCEL SHEET ROW NUMBER IS :'+i)
+    response = WS.sendRequest(findTestObject('Create Branch/Create Branch Post Request Verify Response with valid Values'))
 
-WS.verifyElementPropertyValue(response, 'createBranchServiceOperationResponse.RESPONSE.Output.XSTATUS.statusCd', statusCd)
+    WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'createBranchServiceOperationResponse.RESPONSE.Output.XSTATUS.statusMessage', statusMessage)
+    WS.verifyElementPropertyValue(response, str + 'applicationCd', testdatapath.getValue(2, i))
 
-WS.verifyElementPropertyValue(response, 'createBranchServiceOperationResponse.RESPONSE.Output.XSTATUS.severity', severity)
+    WS.verifyElementPropertyValue(response, str + 'statusCd', testdatapath.getValue(3, i))
+
+    WS.verifyElementPropertyValue(response, str + 'statusMessage', testdatapath.getValue(4, i))
+
+    WS.verifyElementPropertyValue(response, str + 'severity', testdatapath.getValue(5, i))
+}

@@ -44,7 +44,7 @@ for(int i=7; i<8; i++)
 	
 	WS.verifyElementPropertyValue(response, str+'ledgerBalanceAmt', testdatapath.getValue(11, i))
 	
-	WS.verifyElementPropertyValue(response, str+'outstandingItemAmt', testdatapath.getValue(12, i))
+	//WS.verifyElementPropertyValue(response, str+'outstandingItemAmt', testdatapath.getValue(12, i))
 	
 	WS.verifyElementPropertyValue(response, str+'accruedCreditIntAmt', testdatapath.getValue(13, i))
 	

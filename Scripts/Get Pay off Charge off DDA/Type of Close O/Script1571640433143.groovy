@@ -38,11 +38,11 @@ for(int i=3; i<4; i++)
 	
 	WS.verifyElementPropertyValue(response, str+'accountNbr', testdatapath.getValue(8, i))
 	
-	WS.verifyElementPropertyValue(response, str+'postInterestOpt', testdatapath.getValue(9, i))
+	//WS.verifyElementPropertyValue(response, str+'postInterestOpt', testdatapath.getValue(9, i))
 	
 	WS.verifyElementPropertyValue(response, str+'ledgerBalanceAmt', testdatapath.getValue(11, i))
 	
-	WS.verifyElementPropertyValue(response, str+'outstandingItemAmt', testdatapath.getValue(12, i))
+	//WS.verifyElementPropertyValue(response, str+'outstandingItemAmt', testdatapath.getValue(12, i))
 	
 	WS.verifyElementPropertyValue(response, str+'accruedCreditIntAmt', testdatapath.getValue(13, i))
 	

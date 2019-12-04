@@ -16,6 +16,13 @@
       <type>Main</type>
       <value>Basic RnJlZDpmcmVkcHdk</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>System</name>
+      <type>Main</type>
+      <value>zosapifnon</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://20.14.209.1:9443/getPayoffTDA/getPayoffTDA/${URLS}?</restUrl>

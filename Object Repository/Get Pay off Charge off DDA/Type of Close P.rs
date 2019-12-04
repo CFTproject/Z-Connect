@@ -6,7 +6,6 @@
    <elementGuidId>04b46c66-e32f-42e3-99f7-bbdd2c299498</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
@@ -17,9 +16,16 @@
       <type>Main</type>
       <value>Basic RnJlZDpmcmVkcHdk</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>System</name>
+      <type>Main</type>
+      <value>zosapifnon</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://20.14.209.1:9443/getPayoffChargeoffDDA/getPayoffChargeoffDDA/1/p</restUrl>
+   <restUrl>https://20.14.209.1:9443/getPayoffChargeoffDDA/getPayoffChargeoffDDA/1/p?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

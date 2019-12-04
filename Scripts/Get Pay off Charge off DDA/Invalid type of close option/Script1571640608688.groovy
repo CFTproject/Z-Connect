@@ -30,7 +30,7 @@ for(int i=11; i<12; i++)
 	
 	WS.verifyElementPropertyValue(response, str+'xStatus.statusCd', testdatapath.getValue(3, i))
 	
-	WS.verifyElementPropertyValue(response, str+'xStatus.statusMessage', testdatapath.getValue(4, i))
+	//WS.verifyElementPropertyValue(response, str+'xStatus.statusMessage', testdatapath.getValue(4, i))
 	
 	WS.verifyElementPropertyValue(response, str+'xStatus.severity', testdatapath.getValue(5, i))
 	
@@ -44,7 +44,7 @@ for(int i=11; i<12; i++)
 	
 	WS.verifyElementPropertyValue(response, str+'ledgerBalanceAmt', testdatapath.getValue(11, i))
 	
-	WS.verifyElementPropertyValue(response, str+'outstandingItemAmt', testdatapath.getValue(12, i))
+	//WS.verifyElementPropertyValue(response, str+'outstandingItemAmt', testdatapath.getValue(12, i))
 	
 	WS.verifyElementPropertyValue(response, str+'accruedCreditIntAmt', testdatapath.getValue(13, i))
 	

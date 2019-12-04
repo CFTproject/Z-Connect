@@ -13,11 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Create Branch/Create Branch Post Request Verify Response with Invalid Values'))
+String str = 'createBranchServiceOperationResponse.RESPONSE.Output.XSTATUS.'
 
-WS.verifyResponseStatusCode(response, 400)
+testdatapath = findTestData('Z-Connect Test Data/Create Branch_TestData')
 
-WS.verifyElementPropertyValue(response, 'errorMessage', errorMessage)
+for (int i = 3; i < 4; i++) {
+    println('EXCEL SHEET ROW NUMBER IS :' + i)
 
-WS.verifyElementPropertyValue(response, 'errorDetails', errorDetails)
+    response = WS.sendRequest(findTestObject('Create Branch/Create Branch Post Request Verify Response with Invalid Values'))
 
+    WS.verifyResponseStatusCode(response, 400)
+
+    WS.verifyElementPropertyValue(response, 'errorMessage', testdatapath.getValue(6, i))
+
+    WS.verifyElementPropertyValue(response, 'errorDetails', testdatapath.getValue(7, i))
+}
